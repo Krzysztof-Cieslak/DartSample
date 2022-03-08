@@ -1,0 +1,1117 @@
+{"id":"61","label":"metaData","positionEncoding":"utf-16","projectRoot":"file:///home/runner/work/DartSample/DartSample","toolInfo":{"name":"lsif_indexer","args":[],"version":"dev"},"type":"vertex","version":"0.4.3"}
+{"id":"62","kind":"dart","label":"project","type":"vertex"}
+{"id":"63","label":"packageInformation","manager":"pub","name":"package:server","type":"vertex","version":""}
+{"data":"62","id":"64","kind":"begin","label":"$event","scope":"project","type":"vertex"}
+{"id":"65","label":"document","languageId":"dart","type":"vertex","uri":"file:///home/runner/work/DartSample/DartSample/lib/server.dart"}
+{"data":"65","id":"66","kind":"begin","label":"$event","scope":"document","type":"vertex"}
+{"-----Comment":"Emitting LocalDeclaration of [cascade]","id":"67","label":"","type":"vertex"}
+{"id":"6","label":"resultSet","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"cascade","end":{"line":14,"character":15},"id":"68","label":"range","start":{"line":14,"character":8},"type":"vertex"}
+{"id":"69","inV":"6","label":"next","outV":"68","type":"edge"}
+{"id":"70","label":"definitionResult","type":"vertex"}
+{"id":"71","inV":"70","label":"textDocument/definition","outV":"6","type":"edge"}
+{"document":"65","id":"72","inVs":["68"],"label":"item","outV":"70","type":"edge"}
+{"id":"5","label":"hoverResult","result":{"contents":[{"language":"dart","value":"Cascade cascade"}]},"type":"vertex"}
+{"id":"73","inV":"5","label":"textDocument/hover","outV":"6","type":"edge"}
+{"-----Comment":"Emitting export for [cascade]","id":"74","label":"","type":"vertex"}
+{"id":"75","identifier":"package:server/server.dart;package:server/server.dart;server;cascade586","kind":"export","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"76","inV":"63","label":"packageInformation","outV":"75","type":"edge"}
+{"id":"77","inV":"75","label":"moniker","outV":"6","type":"edge"}
+{"-----Comment":"Done export for [cascade]","id":"78","label":"","type":"vertex"}
+{"-----Comment":"Done localDeclaration of [cascade]","id":"79","label":"","type":"vertex"}
+{"-----Comment":"Emitting LocalReference to [cascade]","id":"80","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"cascade","end":{"line":25,"character":27},"id":"11","label":"range","start":{"line":25,"character":20},"type":"vertex"}
+{"id":"81","label":"referenceResult","type":"vertex"}
+{"id":"82","inV":"81","label":"textDocument/references","outV":"6","type":"edge"}
+{"document":"65","id":"83","inVs":["11"],"label":"item","outV":"81","property":"references","type":"edge"}
+{"id":"84","inV":"6","label":"next","outV":"11","type":"edge"}
+{"document":"65","id":"85","inVs":["68"],"label":"item","outV":"81","property":"definitions","type":"edge"}
+{"-----Comment":"Done LocalReference to [cascade]","id":"86","label":"","type":"vertex"}
+{"-----Comment":"Emitting LocalDeclaration of [port]","id":"87","label":"","type":"vertex"}
+{"id":"4","label":"resultSet","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"port","end":{"line":11,"character":12},"id":"88","label":"range","start":{"line":11,"character":8},"type":"vertex"}
+{"id":"89","inV":"4","label":"next","outV":"88","type":"edge"}
+{"id":"90","label":"definitionResult","type":"vertex"}
+{"id":"91","inV":"90","label":"textDocument/definition","outV":"4","type":"edge"}
+{"document":"65","id":"92","inVs":["88"],"label":"item","outV":"90","type":"edge"}
+{"id":"3","label":"hoverResult","result":{"contents":[{"language":"dart","value":"int port"}]},"type":"vertex"}
+{"id":"93","inV":"3","label":"textDocument/hover","outV":"4","type":"edge"}
+{"-----Comment":"Emitting export for [port]","id":"94","label":"","type":"vertex"}
+{"id":"95","identifier":"package:server/server.dart;package:server/server.dart;server;port442","kind":"export","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"96","inV":"63","label":"packageInformation","outV":"95","type":"edge"}
+{"id":"97","inV":"95","label":"moniker","outV":"4","type":"edge"}
+{"-----Comment":"Done export for [port]","id":"98","label":"","type":"vertex"}
+{"-----Comment":"Done localDeclaration of [port]","id":"99","label":"","type":"vertex"}
+{"-----Comment":"Emitting LocalReference to [port]","id":"100","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"port","end":{"line":27,"character":8},"id":"14","label":"range","start":{"line":27,"character":4},"type":"vertex"}
+{"id":"101","label":"referenceResult","type":"vertex"}
+{"id":"102","inV":"101","label":"textDocument/references","outV":"4","type":"edge"}
+{"document":"65","id":"103","inVs":["14"],"label":"item","outV":"101","property":"references","type":"edge"}
+{"id":"104","inV":"4","label":"next","outV":"14","type":"edge"}
+{"document":"65","id":"105","inVs":["88"],"label":"item","outV":"101","property":"definitions","type":"edge"}
+{"-----Comment":"Done LocalReference to [port]","id":"106","label":"","type":"vertex"}
+{"-----Comment":"Emitting LocalDeclaration of [server]","id":"107","label":"","type":"vertex"}
+{"id":"8","label":"resultSet","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"server","end":{"line":21,"character":14},"id":"108","label":"range","start":{"line":21,"character":8},"type":"vertex"}
+{"id":"109","inV":"8","label":"next","outV":"108","type":"edge"}
+{"id":"110","label":"definitionResult","type":"vertex"}
+{"id":"111","inV":"110","label":"textDocument/definition","outV":"8","type":"edge"}
+{"document":"65","id":"112","inVs":["108"],"label":"item","outV":"110","type":"edge"}
+{"id":"7","label":"hoverResult","result":{"contents":[{"language":"dart","value":"HttpServer server"}]},"type":"vertex"}
+{"id":"113","inV":"7","label":"textDocument/hover","outV":"8","type":"edge"}
+{"-----Comment":"Emitting export for [server]","id":"114","label":"","type":"vertex"}
+{"id":"115","identifier":"package:server/server.dart;package:server/server.dart;server;server866","kind":"export","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"116","inV":"63","label":"packageInformation","outV":"115","type":"edge"}
+{"id":"117","inV":"115","label":"moniker","outV":"8","type":"edge"}
+{"-----Comment":"Done export for [server]","id":"118","label":"","type":"vertex"}
+{"-----Comment":"Done localDeclaration of [server]","id":"119","label":"","type":"vertex"}
+{"-----Comment":"Emitting LocalReference to [server]","id":"120","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"server","end":{"line":30,"character":35},"id":"17","label":"range","start":{"line":30,"character":29},"type":"vertex"}
+{"id":"121","label":"referenceResult","type":"vertex"}
+{"id":"122","inV":"121","label":"textDocument/references","outV":"8","type":"edge"}
+{"document":"65","id":"123","inVs":["17"],"label":"item","outV":"121","property":"references","type":"edge"}
+{"id":"124","inV":"8","label":"next","outV":"17","type":"edge"}
+{"document":"65","id":"125","inVs":["108"],"label":"item","outV":"121","property":"definitions","type":"edge"}
+{"-----Comment":"Done LocalReference to [server]","id":"126","label":"","type":"vertex"}
+{"-----Comment":"Emitting LocalReference to [server]","id":"127","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"server","end":{"line":30,"character":58},"id":"20","label":"range","start":{"line":30,"character":52},"type":"vertex"}
+{"id":"128","label":"referenceResult","type":"vertex"}
+{"id":"129","inV":"128","label":"textDocument/references","outV":"8","type":"edge"}
+{"document":"65","id":"130","inVs":["20"],"label":"item","outV":"128","property":"references","type":"edge"}
+{"id":"131","inV":"8","label":"next","outV":"20","type":"edge"}
+{"document":"65","id":"132","inVs":["108"],"label":"item","outV":"128","property":"definitions","type":"edge"}
+{"-----Comment":"Done LocalReference to [server]","id":"133","label":"","type":"vertex"}
+{"-----Comment":"Emitting LocalDeclaration of [_helloWorldHandler]","id":"134","label":"","type":"vertex"}
+{"id":"26","label":"resultSet","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"_helloWorldHandler","end":{"line":46,"character":27},"id":"135","label":"range","start":{"line":46,"character":9},"type":"vertex"}
+{"id":"136","inV":"26","label":"next","outV":"135","type":"edge"}
+{"id":"137","label":"definitionResult","type":"vertex"}
+{"id":"138","inV":"137","label":"textDocument/definition","outV":"26","type":"edge"}
+{"document":"65","id":"139","inVs":["135"],"label":"item","outV":"137","type":"edge"}
+{"id":"25","label":"hoverResult","result":{"contents":[{"language":"dart","value":"Response _helloWorldHandler(Request request)"}]},"type":"vertex"}
+{"id":"140","inV":"25","label":"textDocument/hover","outV":"26","type":"edge"}
+{"-----Comment":"Done localDeclaration of [_helloWorldHandler]","id":"141","label":"","type":"vertex"}
+{"-----Comment":"Emitting LocalReference to [_helloWorldHandler]","id":"142","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"_helloWorldHandler","end":{"line":39,"character":41},"id":"27","label":"range","start":{"line":39,"character":23},"type":"vertex"}
+{"id":"143","label":"referenceResult","type":"vertex"}
+{"id":"144","inV":"143","label":"textDocument/references","outV":"26","type":"edge"}
+{"document":"65","id":"145","inVs":["27"],"label":"item","outV":"143","property":"references","type":"edge"}
+{"id":"146","inV":"26","label":"next","outV":"27","type":"edge"}
+{"document":"65","id":"147","inVs":["135"],"label":"item","outV":"143","property":"definitions","type":"edge"}
+{"-----Comment":"Done LocalReference to [_helloWorldHandler]","id":"148","label":"","type":"vertex"}
+{"-----Comment":"Emitting LocalDeclaration of [_sumHandler]","id":"149","label":"","type":"vertex"}
+{"id":"31","label":"resultSet","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"_sumHandler","end":{"line":48,"character":20},"id":"150","label":"range","start":{"line":48,"character":9},"type":"vertex"}
+{"id":"151","inV":"31","label":"next","outV":"150","type":"edge"}
+{"id":"152","label":"definitionResult","type":"vertex"}
+{"id":"153","inV":"152","label":"textDocument/definition","outV":"31","type":"edge"}
+{"document":"65","id":"154","inVs":["150"],"label":"item","outV":"152","type":"edge"}
+{"id":"30","label":"hoverResult","result":{"contents":[{"language":"dart","value":"Response _sumHandler(dynamic request, String a, String b)"}]},"type":"vertex"}
+{"id":"155","inV":"30","label":"textDocument/hover","outV":"31","type":"edge"}
+{"-----Comment":"Done localDeclaration of [_sumHandler]","id":"156","label":"","type":"vertex"}
+{"-----Comment":"Emitting LocalReference to [_sumHandler]","id":"157","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"_sumHandler","end":{"line":44,"character":49},"id":"32","label":"range","start":{"line":44,"character":38},"type":"vertex"}
+{"id":"158","label":"referenceResult","type":"vertex"}
+{"id":"159","inV":"158","label":"textDocument/references","outV":"31","type":"edge"}
+{"document":"65","id":"160","inVs":["32"],"label":"item","outV":"158","property":"references","type":"edge"}
+{"id":"161","inV":"31","label":"next","outV":"32","type":"edge"}
+{"document":"65","id":"162","inVs":["150"],"label":"item","outV":"158","property":"definitions","type":"edge"}
+{"-----Comment":"Done LocalReference to [_sumHandler]","id":"163","label":"","type":"vertex"}
+{"-----Comment":"Emitting LocalDeclaration of [aNum]","id":"164","label":"","type":"vertex"}
+{"id":"46","label":"resultSet","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"aNum","end":{"line":49,"character":12},"id":"165","label":"range","start":{"line":49,"character":8},"type":"vertex"}
+{"id":"166","inV":"46","label":"next","outV":"165","type":"edge"}
+{"id":"167","label":"definitionResult","type":"vertex"}
+{"id":"168","inV":"167","label":"textDocument/definition","outV":"46","type":"edge"}
+{"document":"65","id":"169","inVs":["165"],"label":"item","outV":"167","type":"edge"}
+{"id":"45","label":"hoverResult","result":{"contents":[{"language":"dart","value":"int aNum"}]},"type":"vertex"}
+{"id":"170","inV":"45","label":"textDocument/hover","outV":"46","type":"edge"}
+{"-----Comment":"Emitting export for [aNum]","id":"171","label":"","type":"vertex"}
+{"id":"172","identifier":"package:server/server.dart;package:server/server.dart;_sumHandler;aNum1829","kind":"export","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"173","inV":"63","label":"packageInformation","outV":"172","type":"edge"}
+{"id":"174","inV":"172","label":"moniker","outV":"46","type":"edge"}
+{"-----Comment":"Done export for [aNum]","id":"175","label":"","type":"vertex"}
+{"-----Comment":"Done localDeclaration of [aNum]","id":"176","label":"","type":"vertex"}
+{"-----Comment":"Emitting LocalReference to [aNum]","id":"177","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"aNum","end":{"line":53,"character":27},"id":"51","label":"range","start":{"line":53,"character":23},"type":"vertex"}
+{"id":"178","label":"referenceResult","type":"vertex"}
+{"id":"179","inV":"178","label":"textDocument/references","outV":"46","type":"edge"}
+{"document":"65","id":"180","inVs":["51"],"label":"item","outV":"178","property":"references","type":"edge"}
+{"id":"181","inV":"46","label":"next","outV":"51","type":"edge"}
+{"document":"65","id":"182","inVs":["165"],"label":"item","outV":"178","property":"definitions","type":"edge"}
+{"-----Comment":"Done LocalReference to [aNum]","id":"183","label":"","type":"vertex"}
+{"-----Comment":"Emitting LocalReference to [aNum]","id":"184","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"aNum","end":{"line":53,"character":51},"id":"57","label":"range","start":{"line":53,"character":47},"type":"vertex"}
+{"id":"185","label":"referenceResult","type":"vertex"}
+{"id":"186","inV":"185","label":"textDocument/references","outV":"46","type":"edge"}
+{"document":"65","id":"187","inVs":["57"],"label":"item","outV":"185","property":"references","type":"edge"}
+{"id":"188","inV":"46","label":"next","outV":"57","type":"edge"}
+{"document":"65","id":"189","inVs":["165"],"label":"item","outV":"185","property":"definitions","type":"edge"}
+{"-----Comment":"Done LocalReference to [aNum]","id":"190","label":"","type":"vertex"}
+{"-----Comment":"Emitting LocalDeclaration of [bNum]","id":"191","label":"","type":"vertex"}
+{"id":"48","label":"resultSet","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"bNum","end":{"line":50,"character":12},"id":"192","label":"range","start":{"line":50,"character":8},"type":"vertex"}
+{"id":"193","inV":"48","label":"next","outV":"192","type":"edge"}
+{"id":"194","label":"definitionResult","type":"vertex"}
+{"id":"195","inV":"194","label":"textDocument/definition","outV":"48","type":"edge"}
+{"document":"65","id":"196","inVs":["192"],"label":"item","outV":"194","type":"edge"}
+{"id":"47","label":"hoverResult","result":{"contents":[{"language":"dart","value":"int bNum"}]},"type":"vertex"}
+{"id":"197","inV":"47","label":"textDocument/hover","outV":"48","type":"edge"}
+{"-----Comment":"Emitting export for [bNum]","id":"198","label":"","type":"vertex"}
+{"id":"199","identifier":"package:server/server.dart;package:server/server.dart;_sumHandler;bNum1858","kind":"export","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"200","inV":"63","label":"packageInformation","outV":"199","type":"edge"}
+{"id":"201","inV":"199","label":"moniker","outV":"48","type":"edge"}
+{"-----Comment":"Done export for [bNum]","id":"202","label":"","type":"vertex"}
+{"-----Comment":"Done localDeclaration of [bNum]","id":"203","label":"","type":"vertex"}
+{"-----Comment":"Emitting LocalReference to [bNum]","id":"204","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"bNum","end":{"line":53,"character":38},"id":"54","label":"range","start":{"line":53,"character":34},"type":"vertex"}
+{"id":"205","label":"referenceResult","type":"vertex"}
+{"id":"206","inV":"205","label":"textDocument/references","outV":"48","type":"edge"}
+{"document":"65","id":"207","inVs":["54"],"label":"item","outV":"205","property":"references","type":"edge"}
+{"id":"208","inV":"48","label":"next","outV":"54","type":"edge"}
+{"document":"65","id":"209","inVs":["192"],"label":"item","outV":"205","property":"definitions","type":"edge"}
+{"-----Comment":"Done LocalReference to [bNum]","id":"210","label":"","type":"vertex"}
+{"-----Comment":"Emitting LocalReference to [bNum]","id":"211","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"bNum","end":{"line":53,"character":58},"id":"60","label":"range","start":{"line":53,"character":54},"type":"vertex"}
+{"id":"212","label":"referenceResult","type":"vertex"}
+{"id":"213","inV":"212","label":"textDocument/references","outV":"48","type":"edge"}
+{"document":"65","id":"214","inVs":["60"],"label":"item","outV":"212","property":"references","type":"edge"}
+{"id":"215","inV":"48","label":"next","outV":"60","type":"edge"}
+{"document":"65","id":"216","inVs":["192"],"label":"item","outV":"212","property":"definitions","type":"edge"}
+{"-----Comment":"Done LocalReference to [bNum]","id":"217","label":"","type":"vertex"}
+{"-----Comment":"Emitting LocalDeclaration of [server]","id":"218","label":"","type":"vertex"}
+{"id":"2","label":"resultSet","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"server","end":{"line":8,"character":13},"id":"219","label":"range","start":{"line":8,"character":7},"type":"vertex"}
+{"id":"220","inV":"2","label":"next","outV":"219","type":"edge"}
+{"id":"221","label":"definitionResult","type":"vertex"}
+{"id":"222","inV":"221","label":"textDocument/definition","outV":"2","type":"edge"}
+{"document":"65","id":"223","inVs":["219"],"label":"item","outV":"221","type":"edge"}
+{"id":"1","label":"hoverResult","result":{"contents":[{"language":"dart","value":"Future<dynamic> server()"}]},"type":"vertex"}
+{"id":"224","inV":"1","label":"textDocument/hover","outV":"2","type":"edge"}
+{"-----Comment":"Emitting export for [server]","id":"225","label":"","type":"vertex"}
+{"id":"226","identifier":"package:server/server.dart;package:server/server.dart;server","kind":"export","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"227","inV":"63","label":"packageInformation","outV":"226","type":"edge"}
+{"id":"228","inV":"226","label":"moniker","outV":"2","type":"edge"}
+{"-----Comment":"Done export for [server]","id":"229","label":"","type":"vertex"}
+{"-----Comment":"Done localDeclaration of [server]","id":"230","label":"","type":"vertex"}
+{"-----Comment":"Emitting LocalDeclaration of [_staticHandler]","id":"231","label":"","type":"vertex"}
+{"id":"22","label":"resultSet","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"_staticHandler","end":{"line":34,"character":20},"id":"232","label":"range","start":{"line":34,"character":6},"type":"vertex"}
+{"id":"233","inV":"22","label":"next","outV":"232","type":"edge"}
+{"id":"234","label":"definitionResult","type":"vertex"}
+{"id":"235","inV":"234","label":"textDocument/definition","outV":"22","type":"edge"}
+{"document":"65","id":"236","inVs":["232"],"label":"item","outV":"234","type":"edge"}
+{"id":"21","label":"hoverResult","result":{"contents":[{"language":"dart","value":"FutureOr<Response> Function(Request) _staticHandler"}]},"type":"vertex"}
+{"id":"237","inV":"21","label":"textDocument/hover","outV":"22","type":"edge"}
+{"-----Comment":"Done localDeclaration of [_staticHandler]","id":"238","label":"","type":"vertex"}
+{"-----Comment":"Emitting LocalDeclaration of [_router]","id":"239","label":"","type":"vertex"}
+{"id":"24","label":"resultSet","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"_router","end":{"line":38,"character":13},"id":"240","label":"range","start":{"line":38,"character":6},"type":"vertex"}
+{"id":"241","inV":"24","label":"next","outV":"240","type":"edge"}
+{"id":"242","label":"definitionResult","type":"vertex"}
+{"id":"243","inV":"242","label":"textDocument/definition","outV":"24","type":"edge"}
+{"document":"65","id":"244","inVs":["240"],"label":"item","outV":"242","type":"edge"}
+{"id":"23","label":"hoverResult","result":{"contents":[{"language":"dart","value":"Router _router"}]},"type":"vertex"}
+{"id":"245","inV":"23","label":"textDocument/hover","outV":"24","type":"edge"}
+{"-----Comment":"Done localDeclaration of [_router]","id":"246","label":"","type":"vertex"}
+{"-----Comment":"Emitting LocalDeclaration of [request]","id":"247","label":"","type":"vertex"}
+{"id":"29","label":"resultSet","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"request","end":{"line":42,"character":12},"id":"248","label":"range","start":{"line":42,"character":5},"type":"vertex"}
+{"id":"249","inV":"29","label":"next","outV":"248","type":"edge"}
+{"id":"250","label":"definitionResult","type":"vertex"}
+{"id":"251","inV":"250","label":"textDocument/definition","outV":"29","type":"edge"}
+{"document":"65","id":"252","inVs":["248"],"label":"item","outV":"250","type":"edge"}
+{"id":"28","label":"hoverResult","result":{"contents":[{"language":"dart","value":"dynamic request"}]},"type":"vertex"}
+{"id":"253","inV":"28","label":"textDocument/hover","outV":"29","type":"edge"}
+{"-----Comment":"Emitting export for [request]","id":"254","label":"","type":"vertex"}
+{"id":"255","identifier":"package:server/server.dart;package:server/server.dart;_router;@1565;request","kind":"export","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"256","inV":"63","label":"packageInformation","outV":"255","type":"edge"}
+{"id":"257","inV":"255","label":"moniker","outV":"29","type":"edge"}
+{"-----Comment":"Done export for [request]","id":"258","label":"","type":"vertex"}
+{"-----Comment":"Done localDeclaration of [request]","id":"259","label":"","type":"vertex"}
+{"-----Comment":"Emitting LocalDeclaration of [request]","id":"260","label":"","type":"vertex"}
+{"id":"36","label":"resultSet","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"request","end":{"line":46,"character":43},"id":"261","label":"range","start":{"line":46,"character":36},"type":"vertex"}
+{"id":"262","inV":"36","label":"next","outV":"261","type":"edge"}
+{"id":"263","label":"definitionResult","type":"vertex"}
+{"id":"264","inV":"263","label":"textDocument/definition","outV":"36","type":"edge"}
+{"document":"65","id":"265","inVs":["261"],"label":"item","outV":"263","type":"edge"}
+{"id":"35","label":"hoverResult","result":{"contents":[{"language":"dart","value":"Request request"}]},"type":"vertex"}
+{"id":"266","inV":"35","label":"textDocument/hover","outV":"36","type":"edge"}
+{"-----Comment":"Emitting export for [request]","id":"267","label":"","type":"vertex"}
+{"id":"268","identifier":"package:server/server.dart;package:server/server.dart;_helloWorldHandler;request","kind":"export","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"269","inV":"63","label":"packageInformation","outV":"268","type":"edge"}
+{"id":"270","inV":"268","label":"moniker","outV":"36","type":"edge"}
+{"-----Comment":"Done export for [request]","id":"271","label":"","type":"vertex"}
+{"-----Comment":"Done localDeclaration of [request]","id":"272","label":"","type":"vertex"}
+{"-----Comment":"Emitting LocalDeclaration of [request]","id":"273","label":"","type":"vertex"}
+{"id":"40","label":"resultSet","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"request","end":{"line":48,"character":28},"id":"274","label":"range","start":{"line":48,"character":21},"type":"vertex"}
+{"id":"275","inV":"40","label":"next","outV":"274","type":"edge"}
+{"id":"276","label":"definitionResult","type":"vertex"}
+{"id":"277","inV":"276","label":"textDocument/definition","outV":"40","type":"edge"}
+{"document":"65","id":"278","inVs":["274"],"label":"item","outV":"276","type":"edge"}
+{"id":"39","label":"hoverResult","result":{"contents":[{"language":"dart","value":"dynamic request"}]},"type":"vertex"}
+{"id":"279","inV":"39","label":"textDocument/hover","outV":"40","type":"edge"}
+{"-----Comment":"Emitting export for [request]","id":"280","label":"","type":"vertex"}
+{"id":"281","identifier":"package:server/server.dart;package:server/server.dart;_sumHandler;request","kind":"export","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"282","inV":"63","label":"packageInformation","outV":"281","type":"edge"}
+{"id":"283","inV":"281","label":"moniker","outV":"40","type":"edge"}
+{"-----Comment":"Done export for [request]","id":"284","label":"","type":"vertex"}
+{"-----Comment":"Done localDeclaration of [request]","id":"285","label":"","type":"vertex"}
+{"-----Comment":"Emitting LocalDeclaration of [a]","id":"286","label":"","type":"vertex"}
+{"id":"42","label":"resultSet","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"a","end":{"line":48,"character":38},"id":"287","label":"range","start":{"line":48,"character":37},"type":"vertex"}
+{"id":"288","inV":"42","label":"next","outV":"287","type":"edge"}
+{"id":"289","label":"definitionResult","type":"vertex"}
+{"id":"290","inV":"289","label":"textDocument/definition","outV":"42","type":"edge"}
+{"document":"65","id":"291","inVs":["287"],"label":"item","outV":"289","type":"edge"}
+{"id":"41","label":"hoverResult","result":{"contents":[{"language":"dart","value":"String a"}]},"type":"vertex"}
+{"id":"292","inV":"41","label":"textDocument/hover","outV":"42","type":"edge"}
+{"-----Comment":"Emitting export for [a]","id":"293","label":"","type":"vertex"}
+{"id":"294","identifier":"package:server/server.dart;package:server/server.dart;_sumHandler;a","kind":"export","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"295","inV":"63","label":"packageInformation","outV":"294","type":"edge"}
+{"id":"296","inV":"294","label":"moniker","outV":"42","type":"edge"}
+{"-----Comment":"Done export for [a]","id":"297","label":"","type":"vertex"}
+{"-----Comment":"Done localDeclaration of [a]","id":"298","label":"","type":"vertex"}
+{"-----Comment":"Emitting LocalDeclaration of [b]","id":"299","label":"","type":"vertex"}
+{"id":"44","label":"resultSet","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"b","end":{"line":48,"character":48},"id":"300","label":"range","start":{"line":48,"character":47},"type":"vertex"}
+{"id":"301","inV":"44","label":"next","outV":"300","type":"edge"}
+{"id":"302","label":"definitionResult","type":"vertex"}
+{"id":"303","inV":"302","label":"textDocument/definition","outV":"44","type":"edge"}
+{"document":"65","id":"304","inVs":["300"],"label":"item","outV":"302","type":"edge"}
+{"id":"43","label":"hoverResult","result":{"contents":[{"language":"dart","value":"String b"}]},"type":"vertex"}
+{"id":"305","inV":"43","label":"textDocument/hover","outV":"44","type":"edge"}
+{"-----Comment":"Emitting export for [b]","id":"306","label":"","type":"vertex"}
+{"id":"307","identifier":"package:server/server.dart;package:server/server.dart;_sumHandler;b","kind":"export","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"308","inV":"63","label":"packageInformation","outV":"307","type":"edge"}
+{"id":"309","inV":"307","label":"moniker","outV":"44","type":"edge"}
+{"-----Comment":"Done export for [b]","id":"310","label":"","type":"vertex"}
+{"-----Comment":"Done localDeclaration of [b]","id":"311","label":"","type":"vertex"}
+{"-----Comment":"Emitting external package information","id":"312","label":"","type":"vertex"}
+{"id":"313","label":"packageInformation","manager":"pub","name":"package:server","type":"vertex","version":""}
+{"id":"314","label":"packageInformation","manager":"pub","name":"dart:async","type":"vertex","version":""}
+{"id":"315","label":"packageInformation","manager":"pub","name":"dart:core","type":"vertex","version":""}
+{"id":"316","label":"packageInformation","manager":"pub","name":"dart:io","type":"vertex","version":""}
+{"id":"317","label":"packageInformation","manager":"pub","name":"package:shelf","type":"vertex","version":""}
+{"id":"318","label":"packageInformation","manager":"pub","name":"dart:_http","type":"vertex","version":""}
+{"id":"319","label":"packageInformation","manager":"pub","name":"package:shelf_static","type":"vertex","version":""}
+{"id":"320","label":"packageInformation","manager":"pub","name":"package:shelf_router","type":"vertex","version":""}
+{"id":"321","label":"packageInformation","manager":"pub","name":"dart:convert","type":"vertex","version":""}
+{"-----Comment":"Done emitting external package information","id":"322","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported declaration","id":"323","label":"","type":"vertex"}
+{"id":"324","label":"hoverResult","result":{"contents":[{"language":"dart","value":"package:server"},{"language":"dart","value":"as shelf_io"}]},"type":"vertex"}
+{"-----Comment":"Done emitting imported declaration","id":"325","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [shelf_io]","id":"326","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"shelf_io","end":{"line":4,"character":48},"id":"327","label":"range","start":{"line":4,"character":40},"type":"vertex"}
+{"id":"328","label":"referenceResult","type":"vertex"}
+{"id":"329","inV":"328","label":"textDocument/references","outV":"327","type":"edge"}
+{"document":"65","id":"330","inVs":["327"],"label":"item","outV":"328","property":"references","type":"edge"}
+{"id":"331","identifier":"package:server/server.dart;shelf_io","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"332","inV":"331","label":"moniker","outV":"327","type":"edge"}
+{"id":"333","inV":"313","label":"packageInformation","outV":"331","type":"edge"}
+{"id":"334","inV":"324","label":"textDocument/hover","outV":"327","type":"edge"}
+{"-----Comment":"Done imported reference to [shelf_io]","id":"335","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [shelf_io]","id":"336","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"shelf_io","end":{"line":21,"character":31},"id":"337","label":"range","start":{"line":21,"character":23},"type":"vertex"}
+{"id":"338","label":"referenceResult","type":"vertex"}
+{"id":"339","inV":"338","label":"textDocument/references","outV":"337","type":"edge"}
+{"document":"65","id":"340","inVs":["337"],"label":"item","outV":"338","property":"references","type":"edge"}
+{"id":"341","identifier":"package:server/server.dart;shelf_io","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"342","inV":"341","label":"moniker","outV":"337","type":"edge"}
+{"id":"343","inV":"313","label":"packageInformation","outV":"341","type":"edge"}
+{"id":"344","inV":"324","label":"textDocument/hover","outV":"337","type":"edge"}
+{"-----Comment":"Done imported reference to [shelf_io]","id":"345","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported declaration","id":"346","label":"","type":"vertex"}
+{"id":"347","label":"hoverResult","result":{"contents":[{"language":"dart","value":"package:server"},{"language":"dart","value":"as shelf_router"}]},"type":"vertex"}
+{"-----Comment":"Done emitting imported declaration","id":"348","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [shelf_router]","id":"349","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"shelf_router","end":{"line":5,"character":63},"id":"350","label":"range","start":{"line":5,"character":51},"type":"vertex"}
+{"id":"351","label":"referenceResult","type":"vertex"}
+{"id":"352","inV":"351","label":"textDocument/references","outV":"350","type":"edge"}
+{"document":"65","id":"353","inVs":["350"],"label":"item","outV":"351","property":"references","type":"edge"}
+{"id":"354","identifier":"package:server/server.dart;shelf_router","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"355","inV":"354","label":"moniker","outV":"350","type":"edge"}
+{"id":"356","inV":"313","label":"packageInformation","outV":"354","type":"edge"}
+{"id":"357","inV":"347","label":"textDocument/hover","outV":"350","type":"edge"}
+{"-----Comment":"Done imported reference to [shelf_router]","id":"358","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [shelf_router]","id":"359","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"shelf_router","end":{"line":38,"character":28},"id":"360","label":"range","start":{"line":38,"character":16},"type":"vertex"}
+{"id":"361","label":"referenceResult","type":"vertex"}
+{"id":"362","inV":"361","label":"textDocument/references","outV":"360","type":"edge"}
+{"document":"65","id":"363","inVs":["360"],"label":"item","outV":"361","property":"references","type":"edge"}
+{"id":"364","identifier":"package:server/server.dart;shelf_router","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"365","inV":"364","label":"moniker","outV":"360","type":"edge"}
+{"id":"366","inV":"313","label":"packageInformation","outV":"364","type":"edge"}
+{"id":"367","inV":"347","label":"textDocument/hover","outV":"360","type":"edge"}
+{"-----Comment":"Done imported reference to [shelf_router]","id":"368","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported declaration","id":"369","label":"","type":"vertex"}
+{"id":"370","label":"hoverResult","result":{"contents":[{"language":"dart","value":"package:server"},{"language":"dart","value":"as shelf_static"}]},"type":"vertex"}
+{"-----Comment":"Done emitting imported declaration","id":"371","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [shelf_static]","id":"372","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"shelf_static","end":{"line":6,"character":63},"id":"373","label":"range","start":{"line":6,"character":51},"type":"vertex"}
+{"id":"374","label":"referenceResult","type":"vertex"}
+{"id":"375","inV":"374","label":"textDocument/references","outV":"373","type":"edge"}
+{"document":"65","id":"376","inVs":["373"],"label":"item","outV":"374","property":"references","type":"edge"}
+{"id":"377","identifier":"package:server/server.dart;shelf_static","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"378","inV":"377","label":"moniker","outV":"373","type":"edge"}
+{"id":"379","inV":"313","label":"packageInformation","outV":"377","type":"edge"}
+{"id":"380","inV":"370","label":"textDocument/hover","outV":"373","type":"edge"}
+{"-----Comment":"Done imported reference to [shelf_static]","id":"381","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [shelf_static]","id":"382","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"shelf_static","end":{"line":35,"character":16},"id":"383","label":"range","start":{"line":35,"character":4},"type":"vertex"}
+{"id":"384","label":"referenceResult","type":"vertex"}
+{"id":"385","inV":"384","label":"textDocument/references","outV":"383","type":"edge"}
+{"document":"65","id":"386","inVs":["383"],"label":"item","outV":"384","property":"references","type":"edge"}
+{"id":"387","identifier":"package:server/server.dart;shelf_static","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"388","inV":"387","label":"moniker","outV":"383","type":"edge"}
+{"id":"389","inV":"313","label":"packageInformation","outV":"387","type":"edge"}
+{"id":"390","inV":"370","label":"textDocument/hover","outV":"383","type":"edge"}
+{"-----Comment":"Done imported reference to [shelf_static]","id":"391","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported declaration","id":"392","label":"","type":"vertex"}
+{"id":"393","label":"hoverResult","result":{"contents":[{"language":"dart","value":"dart:async"},{"language":"dart","value":"abstract class Future<T>"},{"language":"dart","value":"/// The result of an asynchronous computation.\n///\n/// An _asynchronous computation_ cannot provide a result immediately\n/// when it is started, unlike a synchronous computation which does compute\n/// a result immediately by either returning a value or by throwing.\n/// An asynchronous computation may need to wait for something external\n/// to the program (reading a file, querying a database, fetching a web page)\n/// which takes time.\n/// Instead of blocking all computation until the result is available,\n/// the asynchronous computation immediately returns a `Future`\n/// which will *eventually* \"complete\" with the result.\n///\n/// ### Asynchronous programming\n///\n/// To perform an asynchronous computation, you use an `async` function\n/// which always produces a future.\n/// Inside such an asynchronous function, you can use the `await` operation\n/// to delay execution until another asynchronous computation has a result.\n/// While execution of the awaiting function is delayed,\n/// the program is not blocked, and can continue doing other things.\n///\n/// Example:\n/// ```dart\n/// import \"dart:io\";\n/// Future<bool> fileContains(String path, String needle) async {\n///    var haystack = await File(path).readAsString();\n///    return haystack.contains(needle);\n/// }\n/// ```\n/// Here the `File.readAsString` method from `dart:io` is an asychronous\n/// function returning a `Future<String>`.\n/// The `fileContains` function is marked with `async` right before its body,\n/// which means that you can use `await` insider it,\n/// and that it must return a future.\n/// The call to `File(path).readAsString()` initiates reading the file into\n/// a string and produces a `Future<String>` which will eventually contain the\n/// result.\n/// The `await` then waits for that future to complete with a string\n/// (or an error, if reading the file fails).\n/// While waiting, the program can do other things.\n/// When the future completes with a string, the `fileContains` function\n/// computes a boolean and returns it, which then completes the original\n/// future that it returned when first called.\n///\n/// If a future completes with an *error*, awaiting that future will\n/// (re-)throw that error. In the example here, we can add error checking:\n/// ```dart\n/// import \"dart:io\";\n/// Future<bool> fileContains(String path, String needle) async {\n///   try {\n///     var haystack = await File(path).readAsString();\n///     return haystack.contains(needle);\n///   } on FileSystemException catch (exception, stack) {\n///     _myLog.logError(exception, stack);\n///     return false;\n///   }\n/// }\n/// ```\n/// You use a normal `try`/`catch` to catch the failures of awaited\n/// asynchronous computations.\n///\n/// In general, when writing asynchronous code, you should always await a\n/// future when it is produced, and not wait until after another asynchronous\n/// delay. That ensures that you are ready to receive any error that the\n/// future might produce, which is important because an asynchronous error\n/// that no-one is awaiting is an *uncaught* error and may terminate\n/// the running program.\n///\n/// ### Programming with the `Future` API.\n///\n/// The `Future` class also provides a more direct, low-level functionality\n/// for accessing the result that it completes with.\n/// The `async` and `await` language features are built on top of this\n/// functionality, and it sometimes makes sense to use it directly.\n/// There are things that you cannot do by just `await`ing one future at\n/// a time.\n///\n/// With a [Future], you can manually register callbacks\n/// that handle the value, or error, once it is available.\n/// For example:\n/// ```dart\n/// Future<int> future = getFuture();\n/// future.then((value) => handleValue(value))\n///       .catchError((error) => handleError(error));\n/// ```\n/// Since a [Future] can be completed in two ways,\n/// either with a value (if the asynchronous computation succeeded)\n/// or with an error (if the computation failed),\n/// you can install callbacks for either or both cases.\n///\n/// In some cases we say that a future is completed *with another future*.\n/// This is a short way of stating that the future is completed in the same way,\n/// with the same value or error,\n/// as the other future once that other future itself completes.\n/// Most functions in the platform libraries that complete a future\n/// (for example [Completer.complete] or [Future.value]),\n/// also accepts another future, and automatically handles forwarding\n/// the result to the future being completed.\n///\n/// The result of registering callbacks is itself a `Future`,\n/// which in turn is completed with the result of invoking the\n/// corresponding callback with the original future's result.\n/// The new future is completed with an error if the invoked callback throws.\n/// For example:\n/// ```dart\n/// Future<int> successor = future.then((int value) {\n///     // Invoked when the future is completed with a value.\n///     return 42;  // The successor is completed with the value 42.\n///   },\n///   onError: (e) {\n///     // Invoked when the future is completed with an error.\n///     if (canHandle(e)) {\n///       return 499;  // The successor is completed with the value 499.\n///     } else {\n///       throw e;  // The successor is completed with the error e.\n///     }\n///   });\n/// ```\n///\n/// If a future does not have any registered handler when it completes\n/// with an error, it forwards the error to an \"uncaught-error handler\".\n/// This behavior ensures that no error is silently dropped.\n/// However, it also means that error handlers should be installed early,\n/// so that they are present as soon as a future is completed with an error.\n/// The following example demonstrates this potential bug:\n/// ```dart\n/// var future = getFuture();\n/// Timer(const Duration(milliseconds: 5), () {\n///   // The error-handler is not attached until 5 ms after the future has\n///   // been received. If the future fails before that, the error is\n///   // forwarded to the global error-handler, even though there is code\n///   // (just below) to eventually handle the error.\n///   future.then((value) { useValue(value); },\n///               onError: (e) { handleError(e); });\n/// });\n/// ```\n///\n/// When registering callbacks, it's often more readable to register the two\n/// callbacks separately, by first using [then] with one argument\n/// (the value handler) and using a second [catchError] for handling errors.\n/// Each of these will forward the result that they don't handle\n/// to their successors, and together they handle both value and error result.\n/// It also has the additional benefit of the [catchError] handling errors in the\n/// [then] value callback too.\n/// Using sequential handlers instead of parallel ones often leads to code that\n/// is easier to reason about.\n/// It also makes asynchronous code very similar to synchronous code:\n/// ```dart\n/// // Synchronous code.\n/// try {\n///   int value = foo();\n///   return bar(value);\n/// } catch (e) {\n///   return 499;\n/// }\n/// ```\n///\n/// Equivalent asynchronous code, based on futures:\n/// ```dart\n/// Future<int> asyncValue = Future(foo);  // Result of foo() as a future.\n/// asyncValue.then((int value) {\n///   return bar(value);\n/// }).catchError((e) {\n///   return 499;\n/// });\n/// ```\n///\n/// Similar to the synchronous code, the error handler (registered with\n/// [catchError]) is handling any errors thrown by either `foo` or `bar`.\n/// If the error-handler had been registered as the `onError` parameter of\n/// the `then` call, it would not catch errors from the `bar` call.\n///\n/// Futures can have more than one callback-pair registered. Each successor is\n/// treated independently and is handled as if it was the only successor.\n///\n/// A future may also fail to ever complete. In that case, no callbacks are\n/// called. That situation should generally be avoided if possible, unless\n/// it's very clearly documented."}]},"type":"vertex"}
+{"-----Comment":"Done emitting imported declaration","id":"394","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [Future]","id":"395","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"Future","end":{"line":8,"character":6},"id":"396","label":"range","start":{"line":8,"character":0},"type":"vertex"}
+{"id":"397","label":"referenceResult","type":"vertex"}
+{"id":"398","inV":"397","label":"textDocument/references","outV":"396","type":"edge"}
+{"document":"65","id":"399","inVs":["396"],"label":"item","outV":"397","property":"references","type":"edge"}
+{"id":"400","identifier":"dart:async;dart:async/future.dart;Future","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"401","inV":"400","label":"moniker","outV":"396","type":"edge"}
+{"id":"402","inV":"314","label":"packageInformation","outV":"400","type":"edge"}
+{"id":"403","inV":"393","label":"textDocument/hover","outV":"396","type":"edge"}
+{"-----Comment":"Done imported reference to [Future]","id":"404","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported declaration","id":"405","label":"","type":"vertex"}
+{"id":"406","label":"hoverResult","result":{"contents":[{"language":"dart","value":"dart:core"},{"language":"dart","value":"abstract class int extends num"},{"language":"dart","value":"/// An integer number.\n///\n/// The default implementation of `int` is 64-bit two's complement integers\n/// with operations that wrap to that range on overflow.\n///\n/// **Note:** When compiling to JavaScript, integers are restricted to values\n/// that can be represented exactly by double-precision floating point values.\n/// The available integer values include all integers between -2^53 and 2^53,\n/// and some integers with larger magnitude. That includes some integers larger\n/// than 2^63.\n/// The behavior of the operators and methods in the [int]\n/// class therefore sometimes differs between the Dart VM and Dart code\n/// compiled to JavaScript. For example, the bitwise operators truncate their\n/// operands to 32-bit integers when compiled to JavaScript.\n///\n/// Classes cannot extend, implement, or mix in `int`.\n///\n/// **See also:**\n/// * [num] the super class for [int].\n/// * [Numbers](https://dart.dev/guides/language/numbers) in\n/// [A tour of the Dart language](https://dart.dev/guides/language/language-tour)."}]},"type":"vertex"}
+{"-----Comment":"Done emitting imported declaration","id":"407","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [int]","id":"408","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"int","end":{"line":11,"character":18},"id":"409","label":"range","start":{"line":11,"character":15},"type":"vertex"}
+{"id":"410","label":"referenceResult","type":"vertex"}
+{"id":"411","inV":"410","label":"textDocument/references","outV":"409","type":"edge"}
+{"document":"65","id":"412","inVs":["409"],"label":"item","outV":"410","property":"references","type":"edge"}
+{"id":"413","identifier":"dart:core;dart:core/int.dart;int","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"414","inV":"413","label":"moniker","outV":"409","type":"edge"}
+{"id":"415","inV":"315","label":"packageInformation","outV":"413","type":"edge"}
+{"id":"416","inV":"406","label":"textDocument/hover","outV":"409","type":"edge"}
+{"-----Comment":"Done imported reference to [int]","id":"417","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [int]","id":"418","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"int","end":{"line":49,"character":18},"id":"419","label":"range","start":{"line":49,"character":15},"type":"vertex"}
+{"id":"420","label":"referenceResult","type":"vertex"}
+{"id":"421","inV":"420","label":"textDocument/references","outV":"419","type":"edge"}
+{"document":"65","id":"422","inVs":["419"],"label":"item","outV":"420","property":"references","type":"edge"}
+{"id":"423","identifier":"dart:core;dart:core/int.dart;int","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"424","inV":"423","label":"moniker","outV":"419","type":"edge"}
+{"id":"425","inV":"315","label":"packageInformation","outV":"423","type":"edge"}
+{"id":"426","inV":"406","label":"textDocument/hover","outV":"419","type":"edge"}
+{"-----Comment":"Done imported reference to [int]","id":"427","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [int]","id":"428","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"int","end":{"line":50,"character":18},"id":"429","label":"range","start":{"line":50,"character":15},"type":"vertex"}
+{"id":"430","label":"referenceResult","type":"vertex"}
+{"id":"431","inV":"430","label":"textDocument/references","outV":"429","type":"edge"}
+{"document":"65","id":"432","inVs":["429"],"label":"item","outV":"430","property":"references","type":"edge"}
+{"id":"433","identifier":"dart:core;dart:core/int.dart;int","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"434","inV":"433","label":"moniker","outV":"429","type":"edge"}
+{"id":"435","inV":"315","label":"packageInformation","outV":"433","type":"edge"}
+{"id":"436","inV":"406","label":"textDocument/hover","outV":"429","type":"edge"}
+{"-----Comment":"Done imported reference to [int]","id":"437","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported declaration","id":"438","label":"","type":"vertex"}
+{"id":"439","label":"hoverResult","result":{"contents":[{"language":"dart","value":"dart:core"},{"language":"dart","value":"int parse(String source, {int radix, int Function(String) onError})"},{"language":"dart","value":"/// Parse [source] as a, possibly signed, integer literal and return its value.\n///\n/// The [source] must be a non-empty sequence of base-[radix] digits,\n/// optionally prefixed with a minus or plus sign ('-' or '+').\n///\n/// The [radix] must be in the range 2..36. The digits used are\n/// first the decimal digits 0..9, and then the letters 'a'..'z' with\n/// values 10 through 35. Also accepts upper-case letters with the same\n/// values as the lower-case ones.\n///\n/// If no [radix] is given then it defaults to 10. In this case, the [source]\n/// digits may also start with `0x`, in which case the number is interpreted\n/// as a hexadecimal integer literal,\n/// When `int` is implemented by 64-bit signed integers,\n/// hexadecimal integer literals may represent values larger than\n/// 2<sup>63</sup>, in which case the value is parsed as if it is an\n/// *unsigned* number, and the resulting value is the corresponding\n/// signed integer value.\n///\n/// For any int `n` and valid radix `r`, it is guaranteed that\n/// `n == int.parse(n.toRadixString(r), radix: r)`.\n///\n/// If the [source] string does not contain a valid integer literal,\n/// optionally prefixed by a sign, a [FormatException] is thrown\n/// (unless the deprecated [onError] parameter is used, see below).\n///\n/// Instead of throwing and immediately catching the [FormatException],\n/// instead use [tryParse] to handle a parsing error.\n///\n/// Example:\n/// ```dart\n/// var value = int.tryParse(text);\n/// if (value == null) {\n///   // handle the problem\n///   // ...\n/// }\n/// ```\n///\n/// The [onError] parameter is deprecated and will be removed.\n/// Instead of `int.parse(string, onError: (string) => ...)`,\n/// you should use `int.tryParse(string) ?? (...)`.\n///\n/// When the source string is not valid and [onError] is provided,\n/// whenever a [FormatException] would be thrown,\n/// [onError] is instead called with [source] as argument,\n/// and the result of that call is returned by [parse]."}]},"type":"vertex"}
+{"-----Comment":"Done emitting imported declaration","id":"440","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [parse]","id":"441","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"parse","end":{"line":11,"character":24},"id":"442","label":"range","start":{"line":11,"character":19},"type":"vertex"}
+{"id":"443","label":"referenceResult","type":"vertex"}
+{"id":"444","inV":"443","label":"textDocument/references","outV":"442","type":"edge"}
+{"document":"65","id":"445","inVs":["442"],"label":"item","outV":"443","property":"references","type":"edge"}
+{"id":"446","identifier":"dart:core;dart:core/int.dart;int;parse","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"447","inV":"446","label":"moniker","outV":"442","type":"edge"}
+{"id":"448","inV":"315","label":"packageInformation","outV":"446","type":"edge"}
+{"id":"449","inV":"439","label":"textDocument/hover","outV":"442","type":"edge"}
+{"-----Comment":"Done imported reference to [parse]","id":"450","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [parse]","id":"451","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"parse","end":{"line":49,"character":24},"id":"452","label":"range","start":{"line":49,"character":19},"type":"vertex"}
+{"id":"453","label":"referenceResult","type":"vertex"}
+{"id":"454","inV":"453","label":"textDocument/references","outV":"452","type":"edge"}
+{"document":"65","id":"455","inVs":["452"],"label":"item","outV":"453","property":"references","type":"edge"}
+{"id":"456","identifier":"dart:core;dart:core/int.dart;int;parse","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"457","inV":"456","label":"moniker","outV":"452","type":"edge"}
+{"id":"458","inV":"315","label":"packageInformation","outV":"456","type":"edge"}
+{"id":"459","inV":"439","label":"textDocument/hover","outV":"452","type":"edge"}
+{"-----Comment":"Done imported reference to [parse]","id":"460","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [parse]","id":"461","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"parse","end":{"line":50,"character":24},"id":"462","label":"range","start":{"line":50,"character":19},"type":"vertex"}
+{"id":"463","label":"referenceResult","type":"vertex"}
+{"id":"464","inV":"463","label":"textDocument/references","outV":"462","type":"edge"}
+{"document":"65","id":"465","inVs":["462"],"label":"item","outV":"463","property":"references","type":"edge"}
+{"id":"466","identifier":"dart:core;dart:core/int.dart;int;parse","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"467","inV":"466","label":"moniker","outV":"462","type":"edge"}
+{"id":"468","inV":"315","label":"packageInformation","outV":"466","type":"edge"}
+{"id":"469","inV":"439","label":"textDocument/hover","outV":"462","type":"edge"}
+{"-----Comment":"Done imported reference to [parse]","id":"470","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported declaration","id":"471","label":"","type":"vertex"}
+{"id":"472","label":"hoverResult","result":{"contents":[{"language":"dart","value":"dart:io"},{"language":"dart","value":"class Platform"},{"language":"dart","value":"/// Information about the environment in which the current program is running.\n///\n/// Platform provides information such as the operating system,\n/// the hostname of the computer, the value of environment variables,\n/// the path to the running program,\n/// and other global properties of the program being run.\n///\n/// ## Get the URI of the current Dart script\n///\n/// Use the [script] getter to get the URI to the currently running\n/// Dart script.\n/// ```dart\n/// import 'dart:io' show Platform;\n///\n/// void main() {\n///   // Get the URI of the script being run.\n///   var uri = Platform.script;\n///   // Convert the URI to a path.\n///   var path = uri.toFilePath();\n/// }\n/// ```\n/// ## Get the value of an environment variable\n///\n/// The [environment] getter returns a the names and values of environment\n/// variables in a [Map] that contains key-value pairs of strings. The Map is\n/// unmodifiable. This sample shows how to get the value of the `PATH`\n/// environment variable.\n/// ```dart\n/// import 'dart:io' show Platform;\n///\n/// void main() {\n///   Map<String, String> envVars = Platform.environment;\n///   print(envVars['PATH']);\n/// }\n/// ```\n/// ## Determine the OS\n///\n/// You can get the name of the operating system as a string with the\n/// [operatingSystem] getter. You can also use one of the static boolean\n/// getters: [isMacOS], [isLinux], [isWindows], etc.\n/// ```dart\n/// import 'dart:io' show Platform;\n///\n/// void main() {\n///   // Get the operating system as a string.\n///   String os = Platform.operatingSystem;\n///   // Or, use a predicate getter.\n///   if (Platform.isMacOS) {\n///     print('is a Mac');\n///   } else {\n///     print('is not a Mac');\n///   }\n/// }\n/// ```"}]},"type":"vertex"}
+{"-----Comment":"Done emitting imported declaration","id":"473","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [Platform]","id":"474","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"Platform","end":{"line":11,"character":33},"id":"475","label":"range","start":{"line":11,"character":25},"type":"vertex"}
+{"id":"476","label":"referenceResult","type":"vertex"}
+{"id":"477","inV":"476","label":"textDocument/references","outV":"475","type":"edge"}
+{"document":"65","id":"478","inVs":["475"],"label":"item","outV":"476","property":"references","type":"edge"}
+{"id":"479","identifier":"dart:io;dart:io/platform.dart;Platform","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"480","inV":"479","label":"moniker","outV":"475","type":"edge"}
+{"id":"481","inV":"316","label":"packageInformation","outV":"479","type":"edge"}
+{"id":"482","inV":"472","label":"textDocument/hover","outV":"475","type":"edge"}
+{"-----Comment":"Done imported reference to [Platform]","id":"483","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported declaration","id":"484","label":"","type":"vertex"}
+{"id":"485","label":"hoverResult","result":{"contents":[{"language":"dart","value":"dart:io"},{"language":"dart","value":"Map<String, String> get environment"},{"language":"dart","value":"/// The environment for this process as a map from string key to string value.\n///\n/// The map is unmodifiable,\n/// and its content is retrieved from the operating system on its first use.\n///\n/// Environment variables on Windows are case-insensitive,\n/// so on Windows the map is case-insensitive and will convert\n/// all keys to upper case.\n/// On other platforms, keys can be distinguished by case."}]},"type":"vertex"}
+{"-----Comment":"Done emitting imported declaration","id":"486","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [environment]","id":"487","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"environment","end":{"line":11,"character":45},"id":"488","label":"range","start":{"line":11,"character":34},"type":"vertex"}
+{"id":"489","label":"referenceResult","type":"vertex"}
+{"id":"490","inV":"489","label":"textDocument/references","outV":"488","type":"edge"}
+{"document":"65","id":"491","inVs":["488"],"label":"item","outV":"489","property":"references","type":"edge"}
+{"id":"492","identifier":"dart:io;dart:io/platform.dart;Platform;environment?","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"493","inV":"492","label":"moniker","outV":"488","type":"edge"}
+{"id":"494","inV":"316","label":"packageInformation","outV":"492","type":"edge"}
+{"id":"495","inV":"485","label":"textDocument/hover","outV":"488","type":"edge"}
+{"-----Comment":"Done imported reference to [environment]","id":"496","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported declaration","id":"497","label":"","type":"vertex"}
+{"id":"498","label":"hoverResult","result":{"contents":[{"language":"dart","value":"package:shelf"},{"language":"dart","value":"class Cascade"},{"language":"dart","value":"/// A helper that calls several handlers in sequence and returns the first\n/// acceptable response.\n///\n/// By default, a response is considered acceptable if it has a status other\n/// than 404 or 405; other statuses indicate that the handler understood the\n/// request.\n///\n/// If all handlers return unacceptable responses, the final response will be\n/// returned.\n///\n/// ```dart\n///  var handler = new Cascade()\n///      .add(webSocketHandler)\n///      .add(staticFileHandler)\n///      .add(application)\n///      .handler;\n/// ```"}]},"type":"vertex"}
+{"-----Comment":"Done emitting imported declaration","id":"499","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [Cascade]","id":"500","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"Cascade","end":{"line":14,"character":25},"id":"501","label":"range","start":{"line":14,"character":18},"type":"vertex"}
+{"id":"502","label":"referenceResult","type":"vertex"}
+{"id":"503","inV":"502","label":"textDocument/references","outV":"501","type":"edge"}
+{"document":"65","id":"504","inVs":["501"],"label":"item","outV":"502","property":"references","type":"edge"}
+{"id":"505","identifier":"package:shelf/src/cascade.dart;package:shelf/src/cascade.dart;Cascade","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"506","inV":"505","label":"moniker","outV":"501","type":"edge"}
+{"id":"507","inV":"317","label":"packageInformation","outV":"505","type":"edge"}
+{"id":"508","inV":"498","label":"textDocument/hover","outV":"501","type":"edge"}
+{"-----Comment":"Done imported reference to [Cascade]","id":"509","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported declaration","id":"510","label":"","type":"vertex"}
+{"id":"511","label":"hoverResult","result":{"contents":[{"language":"dart","value":"package:shelf"},{"language":"dart","value":"Cascade add(FutureOr<Response> Function(Request) handler)"},{"language":"dart","value":"/// Returns a new cascade with [handler] added to the end.\n///\n/// [handler] will only be called if all previous handlers in the cascade\n/// return unacceptable responses."}]},"type":"vertex"}
+{"-----Comment":"Done emitting imported declaration","id":"512","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [add]","id":"513","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"add","end":{"line":16,"character":10},"id":"514","label":"range","start":{"line":16,"character":7},"type":"vertex"}
+{"id":"515","label":"referenceResult","type":"vertex"}
+{"id":"516","inV":"515","label":"textDocument/references","outV":"514","type":"edge"}
+{"document":"65","id":"517","inVs":["514"],"label":"item","outV":"515","property":"references","type":"edge"}
+{"id":"518","identifier":"package:shelf/src/cascade.dart;package:shelf/src/cascade.dart;Cascade;add","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"519","inV":"518","label":"moniker","outV":"514","type":"edge"}
+{"id":"520","inV":"317","label":"packageInformation","outV":"518","type":"edge"}
+{"id":"521","inV":"511","label":"textDocument/hover","outV":"514","type":"edge"}
+{"-----Comment":"Done imported reference to [add]","id":"522","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [add]","id":"523","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"add","end":{"line":18,"character":10},"id":"524","label":"range","start":{"line":18,"character":7},"type":"vertex"}
+{"id":"525","label":"referenceResult","type":"vertex"}
+{"id":"526","inV":"525","label":"textDocument/references","outV":"524","type":"edge"}
+{"document":"65","id":"527","inVs":["524"],"label":"item","outV":"525","property":"references","type":"edge"}
+{"id":"528","identifier":"package:shelf/src/cascade.dart;package:shelf/src/cascade.dart;Cascade;add","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"529","inV":"528","label":"moniker","outV":"524","type":"edge"}
+{"id":"530","inV":"317","label":"packageInformation","outV":"528","type":"edge"}
+{"id":"531","inV":"511","label":"textDocument/hover","outV":"524","type":"edge"}
+{"-----Comment":"Done imported reference to [add]","id":"532","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported declaration","id":"533","label":"","type":"vertex"}
+{"id":"534","label":"hoverResult","result":{"contents":[{"language":"dart","value":"package:server"},{"language":"dart","value":"FutureOr<Response> Function(Request) _staticHandler"}]},"type":"vertex"}
+{"-----Comment":"Done emitting imported declaration","id":"535","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [_staticHandler]","id":"536","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"_staticHandler","end":{"line":16,"character":25},"id":"537","label":"range","start":{"line":16,"character":11},"type":"vertex"}
+{"id":"538","label":"referenceResult","type":"vertex"}
+{"id":"539","inV":"538","label":"textDocument/references","outV":"537","type":"edge"}
+{"document":"65","id":"540","inVs":["537"],"label":"item","outV":"538","property":"references","type":"edge"}
+{"id":"541","identifier":"package:server/server.dart;package:server/server.dart;_staticHandler","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"542","inV":"541","label":"moniker","outV":"537","type":"edge"}
+{"id":"543","inV":"313","label":"packageInformation","outV":"541","type":"edge"}
+{"id":"544","inV":"534","label":"textDocument/hover","outV":"537","type":"edge"}
+{"-----Comment":"Done imported reference to [_staticHandler]","id":"545","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported declaration","id":"546","label":"","type":"vertex"}
+{"id":"547","label":"hoverResult","result":{"contents":[{"language":"dart","value":"package:server"},{"language":"dart","value":"Router _router"}]},"type":"vertex"}
+{"-----Comment":"Done emitting imported declaration","id":"548","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [_router]","id":"549","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"_router","end":{"line":18,"character":18},"id":"550","label":"range","start":{"line":18,"character":11},"type":"vertex"}
+{"id":"551","label":"referenceResult","type":"vertex"}
+{"id":"552","inV":"551","label":"textDocument/references","outV":"550","type":"edge"}
+{"document":"65","id":"553","inVs":["550"],"label":"item","outV":"551","property":"references","type":"edge"}
+{"id":"554","identifier":"package:server/server.dart;package:server/server.dart;_router","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"555","inV":"554","label":"moniker","outV":"550","type":"edge"}
+{"id":"556","inV":"313","label":"packageInformation","outV":"554","type":"edge"}
+{"id":"557","inV":"547","label":"textDocument/hover","outV":"550","type":"edge"}
+{"-----Comment":"Done imported reference to [_router]","id":"558","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported declaration","id":"559","label":"","type":"vertex"}
+{"id":"560","label":"hoverResult","result":{"contents":[{"language":"dart","value":"package:shelf"},{"language":"dart","value":"Future<HttpServer> serve(FutureOr<Response> Function(Request) handler, dynamic address, int port, {SecurityContext securityContext, int backlog, bool shared = false})"},{"language":"dart","value":"/// Starts an [HttpServer] that listens on the specified [address] and\n/// [port] and sends requests to [handler].\n///\n/// If a [securityContext] is provided an HTTPS server will be started.\n///\n/// See the documentation for [HttpServer.bind] and [HttpServer.bindSecure]\n/// for more details on [address], [port], [backlog], and [shared]."}]},"type":"vertex"}
+{"-----Comment":"Done emitting imported declaration","id":"561","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [serve]","id":"562","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"serve","end":{"line":21,"character":37},"id":"563","label":"range","start":{"line":21,"character":32},"type":"vertex"}
+{"id":"564","label":"referenceResult","type":"vertex"}
+{"id":"565","inV":"564","label":"textDocument/references","outV":"563","type":"edge"}
+{"document":"65","id":"566","inVs":["563"],"label":"item","outV":"564","property":"references","type":"edge"}
+{"id":"567","identifier":"package:shelf/shelf_io.dart;package:shelf/shelf_io.dart;serve","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"568","inV":"567","label":"moniker","outV":"563","type":"edge"}
+{"id":"569","inV":"317","label":"packageInformation","outV":"567","type":"edge"}
+{"id":"570","inV":"560","label":"textDocument/hover","outV":"563","type":"edge"}
+{"-----Comment":"Done imported reference to [serve]","id":"571","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported declaration","id":"572","label":"","type":"vertex"}
+{"id":"573","label":"hoverResult","result":{"contents":[{"language":"dart","value":"package:shelf"},{"language":"dart","value":"FutureOr<Response> Function(Request) Function(FutureOr<Response> Function(Request)) logRequests({void Function(String, bool) logger})"},{"language":"dart","value":"/// Middleware which prints the time of the request, the elapsed time for the\n/// inner handlers, the response's status code and the request URI.\n///\n/// If [logger] is passed, it's called for each request. The `msg` parameter is\n/// a formatted string that includes the request time, duration, request method,\n/// and requested path. When an exception is thrown, it also includes the\n/// exception's string and stack trace; otherwise, it includes the status code.\n/// The `isError` parameter indicates whether the message is caused by an error.\n///\n/// If [logger] is not passed, the message is just passed to [print]."}]},"type":"vertex"}
+{"-----Comment":"Done emitting imported declaration","id":"574","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [logRequests]","id":"575","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"logRequests","end":{"line":23,"character":15},"id":"576","label":"range","start":{"line":23,"character":4},"type":"vertex"}
+{"id":"577","label":"referenceResult","type":"vertex"}
+{"id":"578","inV":"577","label":"textDocument/references","outV":"576","type":"edge"}
+{"document":"65","id":"579","inVs":["576"],"label":"item","outV":"577","property":"references","type":"edge"}
+{"id":"580","identifier":"package:shelf/src/middleware/logger.dart;package:shelf/src/middleware/logger.dart;logRequests","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"581","inV":"580","label":"moniker","outV":"576","type":"edge"}
+{"id":"582","inV":"317","label":"packageInformation","outV":"580","type":"edge"}
+{"id":"583","inV":"573","label":"textDocument/hover","outV":"576","type":"edge"}
+{"-----Comment":"Done imported reference to [logRequests]","id":"584","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported declaration","id":"585","label":"","type":"vertex"}
+{"id":"586","label":"hoverResult","result":{"contents":[{"language":"dart","value":"package:shelf"},{"language":"dart","value":"FutureOr<Response> Function(Request) addHandler(FutureOr<Response> Function(Request) handler)"},{"language":"dart","value":"/// Merges `this` and [handler] into a new [Handler]."}]},"type":"vertex"}
+{"-----Comment":"Done emitting imported declaration","id":"587","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [addHandler]","id":"588","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"addHandler","end":{"line":25,"character":19},"id":"589","label":"range","start":{"line":25,"character":9},"type":"vertex"}
+{"id":"590","label":"referenceResult","type":"vertex"}
+{"id":"591","inV":"590","label":"textDocument/references","outV":"589","type":"edge"}
+{"document":"65","id":"592","inVs":["589"],"label":"item","outV":"590","property":"references","type":"edge"}
+{"id":"593","identifier":"package:shelf/src/middleware_extensions.dart;package:shelf/src/middleware_extensions.dart;MiddlewareExtensions;addHandler","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"594","inV":"593","label":"moniker","outV":"589","type":"edge"}
+{"id":"595","inV":"317","label":"packageInformation","outV":"593","type":"edge"}
+{"id":"596","inV":"586","label":"textDocument/hover","outV":"589","type":"edge"}
+{"-----Comment":"Done imported reference to [addHandler]","id":"597","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported declaration","id":"598","label":"","type":"vertex"}
+{"id":"599","label":"hoverResult","result":{"contents":[{"language":"dart","value":"package:server"},{"language":"dart","value":"Cascade cascade"}]},"type":"vertex"}
+{"-----Comment":"Done emitting imported declaration","id":"600","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [cascade]","id":"601","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"cascade","end":{"line":25,"character":27},"id":"602","label":"range","start":{"line":25,"character":20},"type":"vertex"}
+{"id":"603","label":"referenceResult","type":"vertex"}
+{"id":"604","inV":"603","label":"textDocument/references","outV":"602","type":"edge"}
+{"document":"65","id":"605","inVs":["602"],"label":"item","outV":"603","property":"references","type":"edge"}
+{"id":"606","identifier":"package:server/server.dart;package:server/server.dart;server;cascade586","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"607","inV":"606","label":"moniker","outV":"602","type":"edge"}
+{"id":"608","inV":"313","label":"packageInformation","outV":"606","type":"edge"}
+{"id":"609","inV":"599","label":"textDocument/hover","outV":"602","type":"edge"}
+{"-----Comment":"Done imported reference to [cascade]","id":"610","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported declaration","id":"611","label":"","type":"vertex"}
+{"id":"612","label":"hoverResult","result":{"contents":[{"language":"dart","value":"package:shelf"},{"language":"dart","value":"FutureOr<Response> Function(Request) get handler"},{"language":"dart","value":"/// Exposes this cascade as a single handler.\n///\n/// This handler will call each inner handler in the cascade until one returns\n/// an acceptable response, and return that. If no inner handlers return an\n/// acceptable response, this will return the final response."}]},"type":"vertex"}
+{"-----Comment":"Done emitting imported declaration","id":"613","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [handler]","id":"614","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"handler","end":{"line":25,"character":35},"id":"615","label":"range","start":{"line":25,"character":28},"type":"vertex"}
+{"id":"616","label":"referenceResult","type":"vertex"}
+{"id":"617","inV":"616","label":"textDocument/references","outV":"615","type":"edge"}
+{"document":"65","id":"618","inVs":["615"],"label":"item","outV":"616","property":"references","type":"edge"}
+{"id":"619","identifier":"package:shelf/src/cascade.dart;package:shelf/src/cascade.dart;Cascade;handler?","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"620","inV":"619","label":"moniker","outV":"615","type":"edge"}
+{"id":"621","inV":"317","label":"packageInformation","outV":"619","type":"edge"}
+{"id":"622","inV":"612","label":"textDocument/hover","outV":"615","type":"edge"}
+{"-----Comment":"Done imported reference to [handler]","id":"623","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported declaration","id":"624","label":"","type":"vertex"}
+{"id":"625","label":"hoverResult","result":{"contents":[{"language":"dart","value":"dart:io"},{"language":"dart","value":"abstract class InternetAddress"},{"language":"dart","value":"/// An internet address or a Unix domain address.\n///\n/// This object holds an internet address. If this internet address\n/// is the result of a DNS lookup, the address also holds the hostname\n/// used to make the lookup.\n/// An Internet address combined with a port number represents an\n/// endpoint to which a socket can connect or a listening socket can\n/// bind."}]},"type":"vertex"}
+{"-----Comment":"Done emitting imported declaration","id":"626","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [InternetAddress]","id":"627","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"InternetAddress","end":{"line":26,"character":19},"id":"628","label":"range","start":{"line":26,"character":4},"type":"vertex"}
+{"id":"629","label":"referenceResult","type":"vertex"}
+{"id":"630","inV":"629","label":"textDocument/references","outV":"628","type":"edge"}
+{"document":"65","id":"631","inVs":["628"],"label":"item","outV":"629","property":"references","type":"edge"}
+{"id":"632","identifier":"dart:io;dart:io/socket.dart;InternetAddress","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"633","inV":"632","label":"moniker","outV":"628","type":"edge"}
+{"id":"634","inV":"316","label":"packageInformation","outV":"632","type":"edge"}
+{"id":"635","inV":"625","label":"textDocument/hover","outV":"628","type":"edge"}
+{"-----Comment":"Done imported reference to [InternetAddress]","id":"636","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported declaration","id":"637","label":"","type":"vertex"}
+{"id":"638","label":"hoverResult","result":{"contents":[{"language":"dart","value":"dart:io"},{"language":"dart","value":"InternetAddress get anyIPv4"},{"language":"dart","value":"/// IP version 4 any address.\n///\n/// Use this address when listening on the addresses\n/// of all adapters using IP version 4 (IPv4)."}]},"type":"vertex"}
+{"-----Comment":"Done emitting imported declaration","id":"639","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [anyIPv4]","id":"640","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"anyIPv4","end":{"line":26,"character":27},"id":"641","label":"range","start":{"line":26,"character":20},"type":"vertex"}
+{"id":"642","label":"referenceResult","type":"vertex"}
+{"id":"643","inV":"642","label":"textDocument/references","outV":"641","type":"edge"}
+{"document":"65","id":"644","inVs":["641"],"label":"item","outV":"642","property":"references","type":"edge"}
+{"id":"645","identifier":"dart:io;dart:io/socket.dart;InternetAddress;anyIPv4?","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"646","inV":"645","label":"moniker","outV":"641","type":"edge"}
+{"id":"647","inV":"316","label":"packageInformation","outV":"645","type":"edge"}
+{"id":"648","inV":"638","label":"textDocument/hover","outV":"641","type":"edge"}
+{"-----Comment":"Done imported reference to [anyIPv4]","id":"649","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported declaration","id":"650","label":"","type":"vertex"}
+{"id":"651","label":"hoverResult","result":{"contents":[{"language":"dart","value":"package:server"},{"language":"dart","value":"int port"}]},"type":"vertex"}
+{"-----Comment":"Done emitting imported declaration","id":"652","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [port]","id":"653","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"port","end":{"line":27,"character":8},"id":"654","label":"range","start":{"line":27,"character":4},"type":"vertex"}
+{"id":"655","label":"referenceResult","type":"vertex"}
+{"id":"656","inV":"655","label":"textDocument/references","outV":"654","type":"edge"}
+{"document":"65","id":"657","inVs":["654"],"label":"item","outV":"655","property":"references","type":"edge"}
+{"id":"658","identifier":"package:server/server.dart;package:server/server.dart;server;port442","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"659","inV":"658","label":"moniker","outV":"654","type":"edge"}
+{"id":"660","inV":"313","label":"packageInformation","outV":"658","type":"edge"}
+{"id":"661","inV":"651","label":"textDocument/hover","outV":"654","type":"edge"}
+{"-----Comment":"Done imported reference to [port]","id":"662","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported declaration","id":"663","label":"","type":"vertex"}
+{"id":"664","label":"hoverResult","result":{"contents":[{"language":"dart","value":"dart:core"},{"language":"dart","value":"void print(Object object)"},{"language":"dart","value":"/// Prints a string representation of the object to the console."}]},"type":"vertex"}
+{"-----Comment":"Done emitting imported declaration","id":"665","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [print]","id":"666","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"print","end":{"line":30,"character":7},"id":"667","label":"range","start":{"line":30,"character":2},"type":"vertex"}
+{"id":"668","label":"referenceResult","type":"vertex"}
+{"id":"669","inV":"668","label":"textDocument/references","outV":"667","type":"edge"}
+{"document":"65","id":"670","inVs":["667"],"label":"item","outV":"668","property":"references","type":"edge"}
+{"id":"671","identifier":"dart:core;dart:core/print.dart;print","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"672","inV":"671","label":"moniker","outV":"667","type":"edge"}
+{"id":"673","inV":"315","label":"packageInformation","outV":"671","type":"edge"}
+{"id":"674","inV":"664","label":"textDocument/hover","outV":"667","type":"edge"}
+{"-----Comment":"Done imported reference to [print]","id":"675","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported declaration","id":"676","label":"","type":"vertex"}
+{"id":"677","label":"hoverResult","result":{"contents":[{"language":"dart","value":"package:server"},{"language":"dart","value":"HttpServer server"}]},"type":"vertex"}
+{"-----Comment":"Done emitting imported declaration","id":"678","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [server]","id":"679","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"server","end":{"line":30,"character":35},"id":"680","label":"range","start":{"line":30,"character":29},"type":"vertex"}
+{"id":"681","label":"referenceResult","type":"vertex"}
+{"id":"682","inV":"681","label":"textDocument/references","outV":"680","type":"edge"}
+{"document":"65","id":"683","inVs":["680"],"label":"item","outV":"681","property":"references","type":"edge"}
+{"id":"684","identifier":"package:server/server.dart;package:server/server.dart;server;server866","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"685","inV":"684","label":"moniker","outV":"680","type":"edge"}
+{"id":"686","inV":"313","label":"packageInformation","outV":"684","type":"edge"}
+{"id":"687","inV":"677","label":"textDocument/hover","outV":"680","type":"edge"}
+{"-----Comment":"Done imported reference to [server]","id":"688","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [server]","id":"689","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"server","end":{"line":30,"character":58},"id":"690","label":"range","start":{"line":30,"character":52},"type":"vertex"}
+{"id":"691","label":"referenceResult","type":"vertex"}
+{"id":"692","inV":"691","label":"textDocument/references","outV":"690","type":"edge"}
+{"document":"65","id":"693","inVs":["690"],"label":"item","outV":"691","property":"references","type":"edge"}
+{"id":"694","identifier":"package:server/server.dart;package:server/server.dart;server;server866","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"695","inV":"694","label":"moniker","outV":"690","type":"edge"}
+{"id":"696","inV":"313","label":"packageInformation","outV":"694","type":"edge"}
+{"id":"697","inV":"677","label":"textDocument/hover","outV":"690","type":"edge"}
+{"-----Comment":"Done imported reference to [server]","id":"698","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported declaration","id":"699","label":"","type":"vertex"}
+{"id":"700","label":"hoverResult","result":{"contents":[{"language":"dart","value":"dart:_http"},{"language":"dart","value":"InternetAddress get address"},{"language":"dart","value":"/// The address that the server is listening on.\n///\n/// This is the actual address used when the original address\n/// was specified as a hostname."}]},"type":"vertex"}
+{"-----Comment":"Done emitting imported declaration","id":"701","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [address]","id":"702","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"address","end":{"line":30,"character":43},"id":"703","label":"range","start":{"line":30,"character":36},"type":"vertex"}
+{"id":"704","label":"referenceResult","type":"vertex"}
+{"id":"705","inV":"704","label":"textDocument/references","outV":"703","type":"edge"}
+{"document":"65","id":"706","inVs":["703"],"label":"item","outV":"704","property":"references","type":"edge"}
+{"id":"707","identifier":"dart:_http;dart:_http;HttpServer;address?","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"708","inV":"707","label":"moniker","outV":"703","type":"edge"}
+{"id":"709","inV":"318","label":"packageInformation","outV":"707","type":"edge"}
+{"id":"710","inV":"700","label":"textDocument/hover","outV":"703","type":"edge"}
+{"-----Comment":"Done imported reference to [address]","id":"711","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported declaration","id":"712","label":"","type":"vertex"}
+{"id":"713","label":"hoverResult","result":{"contents":[{"language":"dart","value":"dart:io"},{"language":"dart","value":"String get host"},{"language":"dart","value":"/// The host used to lookup the address.\n///\n/// If there is no host associated with the address this returns the [address]."}]},"type":"vertex"}
+{"-----Comment":"Done emitting imported declaration","id":"714","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [host]","id":"715","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"host","end":{"line":30,"character":48},"id":"716","label":"range","start":{"line":30,"character":44},"type":"vertex"}
+{"id":"717","label":"referenceResult","type":"vertex"}
+{"id":"718","inV":"717","label":"textDocument/references","outV":"716","type":"edge"}
+{"document":"65","id":"719","inVs":["716"],"label":"item","outV":"717","property":"references","type":"edge"}
+{"id":"720","identifier":"dart:io;dart:io/socket.dart;InternetAddress;host?","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"721","inV":"720","label":"moniker","outV":"716","type":"edge"}
+{"id":"722","inV":"316","label":"packageInformation","outV":"720","type":"edge"}
+{"id":"723","inV":"713","label":"textDocument/hover","outV":"716","type":"edge"}
+{"-----Comment":"Done imported reference to [host]","id":"724","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported declaration","id":"725","label":"","type":"vertex"}
+{"id":"726","label":"hoverResult","result":{"contents":[{"language":"dart","value":"dart:_http"},{"language":"dart","value":"int get port"},{"language":"dart","value":"/// The port that the server is listening on.\n///\n/// This is the actual port used when a port of zero is\n/// specified in the [bind] or [bindSecure] call."}]},"type":"vertex"}
+{"-----Comment":"Done emitting imported declaration","id":"727","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [port]","id":"728","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"port","end":{"line":30,"character":63},"id":"729","label":"range","start":{"line":30,"character":59},"type":"vertex"}
+{"id":"730","label":"referenceResult","type":"vertex"}
+{"id":"731","inV":"730","label":"textDocument/references","outV":"729","type":"edge"}
+{"document":"65","id":"732","inVs":["729"],"label":"item","outV":"730","property":"references","type":"edge"}
+{"id":"733","identifier":"dart:_http;dart:_http;HttpServer;port?","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"734","inV":"733","label":"moniker","outV":"729","type":"edge"}
+{"id":"735","inV":"318","label":"packageInformation","outV":"733","type":"edge"}
+{"id":"736","inV":"726","label":"textDocument/hover","outV":"729","type":"edge"}
+{"-----Comment":"Done imported reference to [port]","id":"737","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported declaration","id":"738","label":"","type":"vertex"}
+{"id":"739","label":"hoverResult","result":{"contents":[{"language":"dart","value":"package:shelf_static"},{"language":"dart","value":"FutureOr<Response> Function(Request) createStaticHandler(String fileSystemPath, {bool serveFilesOutsidePath = false, String defaultDocument, bool listDirectories = false, bool useHeaderBytesForContentType = false, MimeTypeResolver contentTypeResolver})"},{"language":"dart","value":"/// Creates a Shelf [Handler] that serves files from the provided\n/// [fileSystemPath].\n///\n/// Accessing a path containing symbolic links will succeed only if the resolved\n/// path is within [fileSystemPath]. To allow access to paths outside of\n/// [fileSystemPath], set [serveFilesOutsidePath] to `true`.\n///\n/// When a existing directory is requested and a [defaultDocument] is specified\n/// the directory is checked for a file with that name. If it exists, it is\n/// served.\n///\n/// If no [defaultDocument] is found and [listDirectories] is true, then the\n/// handler produces a listing of the directory.\n///\n/// If [useHeaderBytesForContentType] is `true`, the contents of the\n/// file will be used along with the file path to determine the content type.\n///\n/// Specify a custom [contentTypeResolver] to customize automatic content type\n/// detection."}]},"type":"vertex"}
+{"-----Comment":"Done emitting imported declaration","id":"740","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [createStaticHandler]","id":"741","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"createStaticHandler","end":{"line":35,"character":36},"id":"742","label":"range","start":{"line":35,"character":17},"type":"vertex"}
+{"id":"743","label":"referenceResult","type":"vertex"}
+{"id":"744","inV":"743","label":"textDocument/references","outV":"742","type":"edge"}
+{"document":"65","id":"745","inVs":["742"],"label":"item","outV":"743","property":"references","type":"edge"}
+{"id":"746","identifier":"package:shelf_static/src/static_handler.dart;package:shelf_static/src/static_handler.dart;createStaticHandler","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"747","inV":"746","label":"moniker","outV":"742","type":"edge"}
+{"id":"748","inV":"319","label":"packageInformation","outV":"746","type":"edge"}
+{"id":"749","inV":"739","label":"textDocument/hover","outV":"742","type":"edge"}
+{"-----Comment":"Done imported reference to [createStaticHandler]","id":"750","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported declaration","id":"751","label":"","type":"vertex"}
+{"id":"752","label":"hoverResult","result":{"contents":[{"language":"dart","value":"package:shelf_static"},{"language":"dart","value":"{String defaultDocument}"}]},"type":"vertex"}
+{"-----Comment":"Done emitting imported declaration","id":"753","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [defaultDocument]","id":"754","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"defaultDocument","end":{"line":35,"character":62},"id":"755","label":"range","start":{"line":35,"character":47},"type":"vertex"}
+{"id":"756","label":"referenceResult","type":"vertex"}
+{"id":"757","inV":"756","label":"textDocument/references","outV":"755","type":"edge"}
+{"document":"65","id":"758","inVs":["755"],"label":"item","outV":"756","property":"references","type":"edge"}
+{"id":"759","identifier":"package:shelf_static/src/static_handler.dart;package:shelf_static/src/static_handler.dart;createStaticHandler;defaultDocument","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"760","inV":"759","label":"moniker","outV":"755","type":"edge"}
+{"id":"761","inV":"319","label":"packageInformation","outV":"759","type":"edge"}
+{"id":"762","inV":"752","label":"textDocument/hover","outV":"755","type":"edge"}
+{"-----Comment":"Done imported reference to [defaultDocument]","id":"763","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported declaration","id":"764","label":"","type":"vertex"}
+{"id":"765","label":"hoverResult","result":{"contents":[{"language":"dart","value":"package:shelf_router"},{"language":"dart","value":"class Router"},{"language":"dart","value":"/// A shelf [Router] routes requests to handlers based on HTTP verb and route\n/// pattern.\n///\n/// ```dart\n/// import 'package:shelf_router/shelf_router.dart';\n/// import 'package:shelf/shelf.dart';\n/// import 'package:shelf/shelf_io.dart' as io;\n///\n/// var app = Router();\n///\n/// // Route pattern parameters can be specified <paramName>\n/// app.get('/users/<userName>/whoami', (Request request) async {\n///   // The matched values can be read with params(request, param)\n///   var userName = request.params['userName'];\n///   return Response.ok('You are ${userName}');\n/// });\n///\n/// // The matched value can also be taken as parameter, if the handler given\n/// // doesn't implement Handler, it's assumed to take all parameters in the\n/// // order they appear in the route pattern.\n/// app.get('/users/<userName>/say-hello', (Request request, String userName) async {\n///   assert(userName == request.params['userName']);\n///   return Response.ok('Hello ${userName}');\n/// });\n///\n/// // It is possible to have multiple parameters, and if desired a custom\n/// // regular expression can be specified with <paramName|REGEXP>, where\n/// // REGEXP is a regular expression (leaving out ^ and $).\n/// // If no regular expression is specified `[^/]+` will be used.\n/// app.get('/users/<userName>/messages/<msgId|\\d+>', (Request request) async {\n///   var msgId = int.parse(request.params['msgId']!);\n///   return Response.ok(message.getById(msgId));\n/// });\n///\n/// var server = await io.serve(app, 'localhost', 8080);\n/// ```\n///\n/// If multiple routes match the same request, the handler for the first\n/// route is called.\n/// If no route matches a request, a [Response.notFound] will be returned\n/// instead. The default matcher can be overridden with the `notFoundHandler`\n/// constructor parameter."}]},"type":"vertex"}
+{"-----Comment":"Done emitting imported declaration","id":"766","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [Router]","id":"767","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"Router","end":{"line":38,"character":35},"id":"768","label":"range","start":{"line":38,"character":29},"type":"vertex"}
+{"id":"769","label":"referenceResult","type":"vertex"}
+{"id":"770","inV":"769","label":"textDocument/references","outV":"768","type":"edge"}
+{"document":"65","id":"771","inVs":["768"],"label":"item","outV":"769","property":"references","type":"edge"}
+{"id":"772","identifier":"package:shelf_router/src/router.dart;package:shelf_router/src/router.dart;Router","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"773","inV":"772","label":"moniker","outV":"768","type":"edge"}
+{"id":"774","inV":"320","label":"packageInformation","outV":"772","type":"edge"}
+{"id":"775","inV":"765","label":"textDocument/hover","outV":"768","type":"edge"}
+{"-----Comment":"Done imported reference to [Router]","id":"776","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported declaration","id":"777","label":"","type":"vertex"}
+{"id":"778","label":"hoverResult","result":{"contents":[{"language":"dart","value":"package:shelf_router"},{"language":"dart","value":"void get(String route, Function handler)"},{"language":"dart","value":"/// Handle `GET` request to [route] using [handler].\n///\n/// If no matching handler for `HEAD` requests is registered, such requests\n/// will also be routed to the [handler] registered here."}]},"type":"vertex"}
+{"-----Comment":"Done emitting imported declaration","id":"779","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [get]","id":"780","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"get","end":{"line":39,"character":7},"id":"781","label":"range","start":{"line":39,"character":4},"type":"vertex"}
+{"id":"782","label":"referenceResult","type":"vertex"}
+{"id":"783","inV":"782","label":"textDocument/references","outV":"781","type":"edge"}
+{"document":"65","id":"784","inVs":["781"],"label":"item","outV":"782","property":"references","type":"edge"}
+{"id":"785","identifier":"package:shelf_router/src/router.dart;package:shelf_router/src/router.dart;Router;get","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"786","inV":"785","label":"moniker","outV":"781","type":"edge"}
+{"id":"787","inV":"320","label":"packageInformation","outV":"785","type":"edge"}
+{"id":"788","inV":"778","label":"textDocument/hover","outV":"781","type":"edge"}
+{"-----Comment":"Done imported reference to [get]","id":"789","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [get]","id":"790","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"get","end":{"line":40,"character":7},"id":"791","label":"range","start":{"line":40,"character":4},"type":"vertex"}
+{"id":"792","label":"referenceResult","type":"vertex"}
+{"id":"793","inV":"792","label":"textDocument/references","outV":"791","type":"edge"}
+{"document":"65","id":"794","inVs":["791"],"label":"item","outV":"792","property":"references","type":"edge"}
+{"id":"795","identifier":"package:shelf_router/src/router.dart;package:shelf_router/src/router.dart;Router;get","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"796","inV":"795","label":"moniker","outV":"791","type":"edge"}
+{"id":"797","inV":"320","label":"packageInformation","outV":"795","type":"edge"}
+{"id":"798","inV":"778","label":"textDocument/hover","outV":"791","type":"edge"}
+{"-----Comment":"Done imported reference to [get]","id":"799","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [get]","id":"800","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"get","end":{"line":44,"character":7},"id":"801","label":"range","start":{"line":44,"character":4},"type":"vertex"}
+{"id":"802","label":"referenceResult","type":"vertex"}
+{"id":"803","inV":"802","label":"textDocument/references","outV":"801","type":"edge"}
+{"document":"65","id":"804","inVs":["801"],"label":"item","outV":"802","property":"references","type":"edge"}
+{"id":"805","identifier":"package:shelf_router/src/router.dart;package:shelf_router/src/router.dart;Router;get","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"806","inV":"805","label":"moniker","outV":"801","type":"edge"}
+{"id":"807","inV":"320","label":"packageInformation","outV":"805","type":"edge"}
+{"id":"808","inV":"778","label":"textDocument/hover","outV":"801","type":"edge"}
+{"-----Comment":"Done imported reference to [get]","id":"809","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported declaration","id":"810","label":"","type":"vertex"}
+{"id":"811","label":"hoverResult","result":{"contents":[{"language":"dart","value":"package:server"},{"language":"dart","value":"Response _helloWorldHandler(Request request)"}]},"type":"vertex"}
+{"-----Comment":"Done emitting imported declaration","id":"812","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [_helloWorldHandler]","id":"813","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"_helloWorldHandler","end":{"line":39,"character":41},"id":"814","label":"range","start":{"line":39,"character":23},"type":"vertex"}
+{"id":"815","label":"referenceResult","type":"vertex"}
+{"id":"816","inV":"815","label":"textDocument/references","outV":"814","type":"edge"}
+{"document":"65","id":"817","inVs":["814"],"label":"item","outV":"815","property":"references","type":"edge"}
+{"id":"818","identifier":"package:server/server.dart;package:server/server.dart;_helloWorldHandler","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"819","inV":"818","label":"moniker","outV":"814","type":"edge"}
+{"id":"820","inV":"313","label":"packageInformation","outV":"818","type":"edge"}
+{"id":"821","inV":"811","label":"textDocument/hover","outV":"814","type":"edge"}
+{"-----Comment":"Done imported reference to [_helloWorldHandler]","id":"822","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported declaration","id":"823","label":"","type":"vertex"}
+{"id":"824","label":"hoverResult","result":{"contents":[{"language":"dart","value":"package:shelf"},{"language":"dart","value":"class Response extends Message"},{"language":"dart","value":"/// The response returned by a [Handler]."}]},"type":"vertex"}
+{"-----Comment":"Done emitting imported declaration","id":"825","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [Response]","id":"826","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"Response","end":{"line":42,"character":25},"id":"827","label":"range","start":{"line":42,"character":17},"type":"vertex"}
+{"id":"828","label":"referenceResult","type":"vertex"}
+{"id":"829","inV":"828","label":"textDocument/references","outV":"827","type":"edge"}
+{"document":"65","id":"830","inVs":["827"],"label":"item","outV":"828","property":"references","type":"edge"}
+{"id":"831","identifier":"package:shelf/src/response.dart;package:shelf/src/response.dart;Response","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"832","inV":"831","label":"moniker","outV":"827","type":"edge"}
+{"id":"833","inV":"317","label":"packageInformation","outV":"831","type":"edge"}
+{"id":"834","inV":"824","label":"textDocument/hover","outV":"827","type":"edge"}
+{"-----Comment":"Done imported reference to [Response]","id":"835","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [Response]","id":"836","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"Response","end":{"line":46,"character":8},"id":"837","label":"range","start":{"line":46,"character":0},"type":"vertex"}
+{"id":"838","label":"referenceResult","type":"vertex"}
+{"id":"839","inV":"838","label":"textDocument/references","outV":"837","type":"edge"}
+{"document":"65","id":"840","inVs":["837"],"label":"item","outV":"838","property":"references","type":"edge"}
+{"id":"841","identifier":"package:shelf/src/response.dart;package:shelf/src/response.dart;Response","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"842","inV":"841","label":"moniker","outV":"837","type":"edge"}
+{"id":"843","inV":"317","label":"packageInformation","outV":"841","type":"edge"}
+{"id":"844","inV":"824","label":"textDocument/hover","outV":"837","type":"edge"}
+{"-----Comment":"Done imported reference to [Response]","id":"845","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [Response]","id":"846","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"Response","end":{"line":46,"character":56},"id":"847","label":"range","start":{"line":46,"character":48},"type":"vertex"}
+{"id":"848","label":"referenceResult","type":"vertex"}
+{"id":"849","inV":"848","label":"textDocument/references","outV":"847","type":"edge"}
+{"document":"65","id":"850","inVs":["847"],"label":"item","outV":"848","property":"references","type":"edge"}
+{"id":"851","identifier":"package:shelf/src/response.dart;package:shelf/src/response.dart;Response","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"852","inV":"851","label":"moniker","outV":"847","type":"edge"}
+{"id":"853","inV":"317","label":"packageInformation","outV":"851","type":"edge"}
+{"id":"854","inV":"824","label":"textDocument/hover","outV":"847","type":"edge"}
+{"-----Comment":"Done imported reference to [Response]","id":"855","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [Response]","id":"856","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"Response","end":{"line":48,"character":8},"id":"857","label":"range","start":{"line":48,"character":0},"type":"vertex"}
+{"id":"858","label":"referenceResult","type":"vertex"}
+{"id":"859","inV":"858","label":"textDocument/references","outV":"857","type":"edge"}
+{"document":"65","id":"860","inVs":["857"],"label":"item","outV":"858","property":"references","type":"edge"}
+{"id":"861","identifier":"package:shelf/src/response.dart;package:shelf/src/response.dart;Response","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"862","inV":"861","label":"moniker","outV":"857","type":"edge"}
+{"id":"863","inV":"317","label":"packageInformation","outV":"861","type":"edge"}
+{"id":"864","inV":"824","label":"textDocument/hover","outV":"857","type":"edge"}
+{"-----Comment":"Done imported reference to [Response]","id":"865","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [Response]","id":"866","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"Response","end":{"line":51,"character":17},"id":"867","label":"range","start":{"line":51,"character":9},"type":"vertex"}
+{"id":"868","label":"referenceResult","type":"vertex"}
+{"id":"869","inV":"868","label":"textDocument/references","outV":"867","type":"edge"}
+{"document":"65","id":"870","inVs":["867"],"label":"item","outV":"868","property":"references","type":"edge"}
+{"id":"871","identifier":"package:shelf/src/response.dart;package:shelf/src/response.dart;Response","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"872","inV":"871","label":"moniker","outV":"867","type":"edge"}
+{"id":"873","inV":"317","label":"packageInformation","outV":"871","type":"edge"}
+{"id":"874","inV":"824","label":"textDocument/hover","outV":"867","type":"edge"}
+{"-----Comment":"Done imported reference to [Response]","id":"875","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported declaration","id":"876","label":"","type":"vertex"}
+{"id":"877","label":"hoverResult","result":{"contents":[{"language":"dart","value":"package:shelf"},{"language":"dart","value":"Response Response.ok(dynamic body, {Map<String, Object> headers, Encoding encoding, Map<String, Object> context})"},{"language":"dart","value":"/// Constructs a 200 OK response.\n///\n/// This indicates that the request has succeeded.\n///\n/// [body] is the response body. It may be either a [String], a [List<int>], a\n/// [Stream<List<int>>], or `null` to indicate no body.\n///\n/// If the body is a [String], [encoding] is used to encode it to a\n/// [Stream<List<int>>]. It defaults to UTF-8. If it's a [String], a\n/// [List<int>], or `null`, the Content-Length header is set automatically\n/// unless a Transfer-Encoding header is set. Otherwise, it's a\n/// [Stream<List<int>>] and no Transfer-Encoding header is set, the adapter\n/// will set the Transfer-Encoding header to \"chunked\" and apply the chunked\n/// encoding to the body.\n///\n/// If [encoding] is passed, the \"encoding\" field of the Content-Type header\n/// in [headers] will be set appropriately. If there is no existing\n/// Content-Type header, it will be set to \"application/octet-stream\".\n/// [headers] must contain values that are either `String` or `List<String>`.\n/// An empty list will cause the header to be omitted."}]},"type":"vertex"}
+{"-----Comment":"Done emitting imported declaration","id":"878","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [ok]","id":"879","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"ok","end":{"line":42,"character":28},"id":"880","label":"range","start":{"line":42,"character":26},"type":"vertex"}
+{"id":"881","label":"referenceResult","type":"vertex"}
+{"id":"882","inV":"881","label":"textDocument/references","outV":"880","type":"edge"}
+{"document":"65","id":"883","inVs":["880"],"label":"item","outV":"881","property":"references","type":"edge"}
+{"id":"884","identifier":"package:shelf/src/response.dart;package:shelf/src/response.dart;Response;ok","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"885","inV":"884","label":"moniker","outV":"880","type":"edge"}
+{"id":"886","inV":"317","label":"packageInformation","outV":"884","type":"edge"}
+{"id":"887","inV":"877","label":"textDocument/hover","outV":"880","type":"edge"}
+{"-----Comment":"Done imported reference to [ok]","id":"888","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [ok]","id":"889","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"ok","end":{"line":46,"character":59},"id":"890","label":"range","start":{"line":46,"character":57},"type":"vertex"}
+{"id":"891","label":"referenceResult","type":"vertex"}
+{"id":"892","inV":"891","label":"textDocument/references","outV":"890","type":"edge"}
+{"document":"65","id":"893","inVs":["890"],"label":"item","outV":"891","property":"references","type":"edge"}
+{"id":"894","identifier":"package:shelf/src/response.dart;package:shelf/src/response.dart;Response;ok","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"895","inV":"894","label":"moniker","outV":"890","type":"edge"}
+{"id":"896","inV":"317","label":"packageInformation","outV":"894","type":"edge"}
+{"id":"897","inV":"877","label":"textDocument/hover","outV":"890","type":"edge"}
+{"-----Comment":"Done imported reference to [ok]","id":"898","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [ok]","id":"899","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"ok","end":{"line":51,"character":20},"id":"900","label":"range","start":{"line":51,"character":18},"type":"vertex"}
+{"id":"901","label":"referenceResult","type":"vertex"}
+{"id":"902","inV":"901","label":"textDocument/references","outV":"900","type":"edge"}
+{"document":"65","id":"903","inVs":["900"],"label":"item","outV":"901","property":"references","type":"edge"}
+{"id":"904","identifier":"package:shelf/src/response.dart;package:shelf/src/response.dart;Response;ok","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"905","inV":"904","label":"moniker","outV":"900","type":"edge"}
+{"id":"906","inV":"317","label":"packageInformation","outV":"904","type":"edge"}
+{"id":"907","inV":"877","label":"textDocument/hover","outV":"900","type":"edge"}
+{"-----Comment":"Done imported reference to [ok]","id":"908","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported declaration","id":"909","label":"","type":"vertex"}
+{"id":"910","label":"hoverResult","result":{"contents":[{"language":"dart","value":"dart:core"},{"language":"dart","value":"class DateTime implements Comparable<DateTime>"},{"language":"dart","value":"/// An instant in time, such as July 20, 1969, 8:18pm GMT.\n///\n/// DateTimes can represent time values that are at a distance of at most\n/// 100,000,000 days from epoch (1970-01-01 UTC): -271821-04-20 to 275760-09-13.\n///\n/// Create a `DateTime` object by using one of the constructors\n/// or by parsing a correctly formatted string,\n/// which complies with a subset of ISO 8601.\n/// **Note:** hours are specified between 0 and 23,\n/// as in a 24-hour clock.\n///\n/// For example:\n/// ```dart\n/// final now = DateTime.now();\n/// final berlinWallFell = DateTime.utc(1989, 11, 9);\n/// final moonLanding = DateTime.parse('1969-07-20 20:18:04Z'); // 8:18pm\n/// ```\n///\n/// A `DateTime` object is anchored either in the UTC time zone\n/// or in the local time zone of the current computer\n/// when the object is created.\n///\n/// Once created, neither the value nor the time zone\n/// of a `DateTime` object may be changed.\n///\n/// You can use properties to get\n/// the individual units of a `DateTime` object.\n/// ```\n/// print(berlinWallFell.year); // 1989\n/// print(berlinWallFell.month); // 11\n/// print(berlinWallFell.day); // 9\n/// print(moonLanding.hour); // 20\n/// print(moonLanding.minute); // 18\n/// ```\n/// For convenience and readability,\n/// the `DateTime` class provides a constant for each `day` and `month`\n/// name - for example, [august] and [friday].\n/// You can use these constants to improve code readability:\n/// ```dart\n/// final berlinWallFell = DateTime.utc(1989, DateTime.november, 9);\n/// print(DateTime.november); // 11\n/// assert(berlinWallFell.month == DateTime.november);\n/// assert(berlinWallFell.weekday == DateTime.thursday);\n/// ```\n///\n/// `Day` and `month` values begin at 1, and the week starts on `Monday`.\n/// That is, the constants [january] and [monday] are both 1.\n///\n/// ## Working with UTC and local time\n///\n/// A `DateTime` object is in the local time zone\n/// unless explicitly created in the UTC time zone.\n/// Use [isUtc] to determine whether a `DateTime` object is based in UTC.\n///\n/// ```dart\n/// final dDay = DateTime.utc(1944, 6, 6);\n/// print(dDay.isUtc); // true\n///\n/// final dDayLocal = DateTime(1944, 6, 6);\n/// print(dDayLocal.isUtc); // false\n/// ```\n/// Use the methods [toLocal] and [toUtc]\n/// to get the equivalent date/time value specified in the other time zone.\n/// ```\n/// final localDay = dDay.toLocal(); // e.g. 1944-06-06 02:00:00.000\n/// print(localDay.isUtc); // false\n///\n/// final utcFromLocal = localDay.toUtc(); // 1944-06-06 00:00:00.000Z\n/// print(utcFromLocal.isUtc); // true\n/// ```\n/// Use [timeZoneName] to get an abbreviated name of the time zone\n/// for the `DateTime` object.\n/// ```\n/// print(dDay.timeZoneName); // UTC\n/// print(localDay.timeZoneName); // e.g. EET\n/// ```\n/// To find the difference\n/// between UTC and the time zone of a `DateTime` object\n/// call [timeZoneOffset].\n/// ```\n/// print(dDay.timeZoneOffset); // 0:00:00.000000\n/// print(localDay.timeZoneOffset); // e.g. 2:00:00.000000\n/// ```\n///\n/// ## Comparing DateTime objects\n///\n/// The `DateTime` class contains methods for comparing `DateTime`s\n/// chronologically, such as [isAfter], [isBefore], and [isAtSameMomentAs].\n/// ```\n/// print(berlinWallFell.isAfter(moonLanding)); // true\n/// print(berlinWallFell.isBefore(moonLanding)); // false\n/// print(dDay.isAtSameMomentAs(localDay)); // true\n/// ```\n///\n/// ## Using DateTime with Duration\n///\n/// Use the [add] and [subtract] methods with a [Duration] object\n/// to create a `DateTime` object based on another.\n/// For example, to find the point in time that is 36 hours after now,\n/// you can write:\n/// ```dart\n/// final now = DateTime.now();\n/// final later = now.add(const Duration(hours: 36));\n/// ```\n///\n/// To find out how much time is between two `DateTime` objects use\n/// [difference], which returns a [Duration] object:\n/// ```\n/// final difference = berlinWallFell.difference(moonLanding);\n/// print(difference.inDays); // 7416\n/// ```\n///\n/// The difference between two dates in different time zones\n/// is just the number of nanoseconds between the two points in time.\n/// It doesn't take calendar days into account.\n/// That means that the difference between two midnights in local time may be\n/// less than 24 hours times the number of days between them,\n/// if there is a daylight saving change in between.\n/// If the difference above is calculated using Australian local time, the\n/// difference is 7415 days and 23 hours, which is only 7415 whole days as\n/// reported by `inDays`.\n///\n/// ## Other resources\n///\n///  * See [Duration] to represent a span of time.\n///  * See [Stopwatch] to measure timespans.\n///  * The `DateTime` class does not provide internationalization.\n///  To internationalize your code, use\n///  the [intl](https://pub.dev/packages/intl) package."}]},"type":"vertex"}
+{"-----Comment":"Done emitting imported declaration","id":"911","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [DateTime]","id":"912","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"DateTime","end":{"line":42,"character":37},"id":"913","label":"range","start":{"line":42,"character":29},"type":"vertex"}
+{"id":"914","label":"referenceResult","type":"vertex"}
+{"id":"915","inV":"914","label":"textDocument/references","outV":"913","type":"edge"}
+{"document":"65","id":"916","inVs":["913"],"label":"item","outV":"914","property":"references","type":"edge"}
+{"id":"917","identifier":"dart:core;dart:core/date_time.dart;DateTime","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"918","inV":"917","label":"moniker","outV":"913","type":"edge"}
+{"id":"919","inV":"315","label":"packageInformation","outV":"917","type":"edge"}
+{"id":"920","inV":"910","label":"textDocument/hover","outV":"913","type":"edge"}
+{"-----Comment":"Done imported reference to [DateTime]","id":"921","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported declaration","id":"922","label":"","type":"vertex"}
+{"id":"923","label":"hoverResult","result":{"contents":[{"language":"dart","value":"dart:core"},{"language":"dart","value":"DateTime DateTime.now()"},{"language":"dart","value":"/// Constructs a [DateTime] instance with current date and time in the\n/// local time zone.\n///\n/// ```dart\n/// final now = DateTime.now();\n/// ```"}]},"type":"vertex"}
+{"-----Comment":"Done emitting imported declaration","id":"924","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [now]","id":"925","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"now","end":{"line":42,"character":41},"id":"926","label":"range","start":{"line":42,"character":38},"type":"vertex"}
+{"id":"927","label":"referenceResult","type":"vertex"}
+{"id":"928","inV":"927","label":"textDocument/references","outV":"926","type":"edge"}
+{"document":"65","id":"929","inVs":["926"],"label":"item","outV":"927","property":"references","type":"edge"}
+{"id":"930","identifier":"dart:core;dart:core/date_time.dart;DateTime;now","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"931","inV":"930","label":"moniker","outV":"926","type":"edge"}
+{"id":"932","inV":"315","label":"packageInformation","outV":"930","type":"edge"}
+{"id":"933","inV":"923","label":"textDocument/hover","outV":"926","type":"edge"}
+{"-----Comment":"Done imported reference to [now]","id":"934","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported declaration","id":"935","label":"","type":"vertex"}
+{"id":"936","label":"hoverResult","result":{"contents":[{"language":"dart","value":"dart:core"},{"language":"dart","value":"DateTime toUtc()"},{"language":"dart","value":"/// Returns this DateTime value in the UTC time zone.\n///\n/// Returns [this] if it is already in UTC.\n/// Otherwise this method is equivalent to:\n///\n/// ```dart template:expression\n/// DateTime.fromMicrosecondsSinceEpoch(microsecondsSinceEpoch,\n///                                     isUtc: true)\n/// ```"}]},"type":"vertex"}
+{"-----Comment":"Done emitting imported declaration","id":"937","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [toUtc]","id":"938","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"toUtc","end":{"line":42,"character":49},"id":"939","label":"range","start":{"line":42,"character":44},"type":"vertex"}
+{"id":"940","label":"referenceResult","type":"vertex"}
+{"id":"941","inV":"940","label":"textDocument/references","outV":"939","type":"edge"}
+{"document":"65","id":"942","inVs":["939"],"label":"item","outV":"940","property":"references","type":"edge"}
+{"id":"943","identifier":"dart:core;dart:core/date_time.dart;DateTime;toUtc","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"944","inV":"943","label":"moniker","outV":"939","type":"edge"}
+{"id":"945","inV":"315","label":"packageInformation","outV":"943","type":"edge"}
+{"id":"946","inV":"936","label":"textDocument/hover","outV":"939","type":"edge"}
+{"-----Comment":"Done imported reference to [toUtc]","id":"947","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported declaration","id":"948","label":"","type":"vertex"}
+{"id":"949","label":"hoverResult","result":{"contents":[{"language":"dart","value":"dart:core"},{"language":"dart","value":"String toIso8601String()"},{"language":"dart","value":"/// Returns an ISO-8601 full-precision extended format representation.\n///\n/// The format is `yyyy-MM-ddTHH:mm:ss.mmmuuuZ` for UTC time, and\n/// `yyyy-MM-ddTHH:mm:ss.mmmuuu` (no trailing \"Z\") for local/non-UTC time,\n/// where:\n///\n/// * `yyyy` is a, possibly negative, four digit representation of the year,\n///   if the year is in the range -9999 to 9999,\n///   otherwise it is a signed six digit representation of the year.\n/// * `MM` is the month in the range 01 to 12,\n/// * `dd` is the day of the month in the range 01 to 31,\n/// * `HH` are hours in the range 00 to 23,\n/// * `mm` are minutes in the range 00 to 59,\n/// * `ss` are seconds in the range 00 to 59 (no leap seconds),\n/// * `mmm` are milliseconds in the range 000 to 999, and\n/// * `uuu` are microseconds in the range 001 to 999. If [microsecond] equals\n///   0, then this part is omitted.\n///\n/// The resulting string can be parsed back using [parse].\n/// ```dart\n/// final moonLanding = DateTime.utc(1969, 7, 20, 20, 18, 04);\n/// final isoDate = moonLanding.toIso8601String();\n/// print(isoDate); // 1969-07-20T20:18:04.000Z\n/// ```"}]},"type":"vertex"}
+{"-----Comment":"Done emitting imported declaration","id":"950","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [toIso8601String]","id":"951","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"toIso8601String","end":{"line":42,"character":67},"id":"952","label":"range","start":{"line":42,"character":52},"type":"vertex"}
+{"id":"953","label":"referenceResult","type":"vertex"}
+{"id":"954","inV":"953","label":"textDocument/references","outV":"952","type":"edge"}
+{"document":"65","id":"955","inVs":["952"],"label":"item","outV":"953","property":"references","type":"edge"}
+{"id":"956","identifier":"dart:core;dart:core/date_time.dart;DateTime;toIso8601String","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"957","inV":"956","label":"moniker","outV":"952","type":"edge"}
+{"id":"958","inV":"315","label":"packageInformation","outV":"956","type":"edge"}
+{"id":"959","inV":"949","label":"textDocument/hover","outV":"952","type":"edge"}
+{"-----Comment":"Done imported reference to [toIso8601String]","id":"960","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported declaration","id":"961","label":"","type":"vertex"}
+{"id":"962","label":"hoverResult","result":{"contents":[{"language":"dart","value":"package:server"},{"language":"dart","value":"Response _sumHandler(dynamic request, String a, String b)"}]},"type":"vertex"}
+{"-----Comment":"Done emitting imported declaration","id":"963","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [_sumHandler]","id":"964","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"_sumHandler","end":{"line":44,"character":49},"id":"965","label":"range","start":{"line":44,"character":38},"type":"vertex"}
+{"id":"966","label":"referenceResult","type":"vertex"}
+{"id":"967","inV":"966","label":"textDocument/references","outV":"965","type":"edge"}
+{"document":"65","id":"968","inVs":["965"],"label":"item","outV":"966","property":"references","type":"edge"}
+{"id":"969","identifier":"package:server/server.dart;package:server/server.dart;_sumHandler","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"970","inV":"969","label":"moniker","outV":"965","type":"edge"}
+{"id":"971","inV":"313","label":"packageInformation","outV":"969","type":"edge"}
+{"id":"972","inV":"962","label":"textDocument/hover","outV":"965","type":"edge"}
+{"-----Comment":"Done imported reference to [_sumHandler]","id":"973","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported declaration","id":"974","label":"","type":"vertex"}
+{"id":"975","label":"hoverResult","result":{"contents":[{"language":"dart","value":"package:shelf"},{"language":"dart","value":"class Request extends Message"},{"language":"dart","value":"/// An HTTP request to be processed by a Shelf application."}]},"type":"vertex"}
+{"-----Comment":"Done emitting imported declaration","id":"976","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [Request]","id":"977","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"Request","end":{"line":46,"character":35},"id":"978","label":"range","start":{"line":46,"character":28},"type":"vertex"}
+{"id":"979","label":"referenceResult","type":"vertex"}
+{"id":"980","inV":"979","label":"textDocument/references","outV":"978","type":"edge"}
+{"document":"65","id":"981","inVs":["978"],"label":"item","outV":"979","property":"references","type":"edge"}
+{"id":"982","identifier":"package:shelf/src/request.dart;package:shelf/src/request.dart;Request","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"983","inV":"982","label":"moniker","outV":"978","type":"edge"}
+{"id":"984","inV":"317","label":"packageInformation","outV":"982","type":"edge"}
+{"id":"985","inV":"975","label":"textDocument/hover","outV":"978","type":"edge"}
+{"-----Comment":"Done imported reference to [Request]","id":"986","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported declaration","id":"987","label":"","type":"vertex"}
+{"id":"988","label":"hoverResult","result":{"contents":[{"language":"dart","value":"dart:core"},{"language":"dart","value":"abstract class String implements Comparable<String>, Pattern"},{"language":"dart","value":"/// A sequence of UTF-16 code units.\n///\n/// Strings are mainly used to represent text. A character may be represented by\n/// multiple code points, each code point consisting of one or two code\n/// units. For example, the Papua New Guinea flag character requires four code\n/// units to represent two code points, but should be treated like a single\n/// character: \"🇵🇬\". Platforms that do not support the flag character may show\n/// the letters \"PG\" instead. If the code points are swapped, it instead becomes\n/// the Guadeloupe flag \"🇬🇵\" (\"GP\").\n///\n/// A string can be either single or multiline. Single line strings are\n/// written using matching single or double quotes, and multiline strings are\n/// written using triple quotes. The following are all valid Dart strings:\n/// ```dart\n/// 'Single quotes';\n/// \"Double quotes\";\n/// 'Double quotes in \"single\" quotes';\n/// \"Single quotes in 'double' quotes\";\n///\n/// '''A\n/// multiline\n/// string''';\n///\n/// \"\"\"\n/// Another\n/// multiline\n/// string\"\"\";\n/// ```\n/// Strings are immutable. Although you cannot change a string, you can perform\n/// an operation on a string which creates a new string:\n/// ```dart\n/// const string = 'Dart is fun';\n/// print(string.substring(0, 4)); // 'Dart'\n/// ```\n/// You can use the plus (`+`) operator to concatenate strings:\n/// ```dart\n/// const string = 'Dart ' + 'is ' + 'fun!';\n/// print(string); // 'Dart is fun!'\n/// ```\n/// Adjacent string literals are concatenated automatically:\n/// ```dart\n/// const string = 'Dart ' 'is ' 'fun!';\n/// print(string); // 'Dart is fun!'\n/// ```\n/// You can use `${}` to interpolate the value of Dart expressions\n/// within strings. The curly braces can be omitted when evaluating identifiers:\n/// ```dart\n/// const string = 'dartlang';\n/// print('$string has ${string.length} letters'); // dartlang has 8 letters\n/// ```\n/// A string is represented by a sequence of Unicode UTF-16 code units\n/// accessible through the [codeUnitAt] or the [codeUnits] members:\n/// ```dart\n/// const string = 'Dart';\n/// final firstCodeUnit = string.codeUnitAt(0);\n/// print(firstCodeUnit); // 68, aka U+0044, the code point for 'D'.\n/// final allCodeUnits = string.codeUnits;\n/// print(allCodeUnits); // [68, 97, 114, 116]\n/// ```\n/// A string representation of the individual code units is accessible through\n/// the index operator:\n/// ```dart\n/// const string = 'Dart';\n/// final charAtIndex = string[0];\n/// print(charAtIndex); // 'D'\n/// ```\n/// The characters of a string are encoded in UTF-16. Decoding UTF-16, which\n/// combines surrogate pairs, yields Unicode code points. Following a similar\n/// terminology to Go, Dart uses the name 'rune' for an integer representing a\n/// Unicode code point. Use the [runes] property to get the runes of a string:\n/// ```dart\n/// const string = 'Dart';\n/// final runes = string.runes.toList();\n/// print(runes); // [68, 97, 114, 116]\n/// ```\n/// For a character outside the Basic Multilingual Plane (plane 0) that is\n/// composed of a surrogate pair, [runes] combines the pair and returns a\n/// single integer.  For example, the Unicode character for a\n/// musical G-clef ('𝄞') with rune value 0x1D11E consists of a UTF-16 surrogate\n/// pair: `0xD834` and `0xDD1E`. Using [codeUnits] returns the surrogate pair,\n/// and using `runes` returns their combined value:\n/// ```dart\n/// const clef = '\\u{1D11E}';\n/// for (final item in clef.codeUnits) {\n///   print(item.toRadixString(16));\n///   // d834\n///   // dd1e\n/// }\n/// for (final item in clef.runes) {\n///   print(item.toRadixString(16)); // 1d11e\n/// }\n/// ```\n/// The `String` class cannot be extended or implemented. Attempting to do so\n/// yields a compile-time error.\n///\n/// ## Other resources\n///\n/// * [StringBuffer] to efficiently build a string incrementally.\n/// * [RegExp] to work with regular expressions.\n/// * [Strings and regular expressions](https://dart.dev/guides/libraries/library-tour#strings-and-regular-expressions)"}]},"type":"vertex"}
+{"-----Comment":"Done emitting imported declaration","id":"989","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [String]","id":"990","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"String","end":{"line":48,"character":36},"id":"991","label":"range","start":{"line":48,"character":30},"type":"vertex"}
+{"id":"992","label":"referenceResult","type":"vertex"}
+{"id":"993","inV":"992","label":"textDocument/references","outV":"991","type":"edge"}
+{"document":"65","id":"994","inVs":["991"],"label":"item","outV":"992","property":"references","type":"edge"}
+{"id":"995","identifier":"dart:core;dart:core/string.dart;String","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"996","inV":"995","label":"moniker","outV":"991","type":"edge"}
+{"id":"997","inV":"315","label":"packageInformation","outV":"995","type":"edge"}
+{"id":"998","inV":"988","label":"textDocument/hover","outV":"991","type":"edge"}
+{"-----Comment":"Done imported reference to [String]","id":"999","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [String]","id":"1000","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"String","end":{"line":48,"character":46},"id":"1001","label":"range","start":{"line":48,"character":40},"type":"vertex"}
+{"id":"1002","label":"referenceResult","type":"vertex"}
+{"id":"1003","inV":"1002","label":"textDocument/references","outV":"1001","type":"edge"}
+{"document":"65","id":"1004","inVs":["1001"],"label":"item","outV":"1002","property":"references","type":"edge"}
+{"id":"1005","identifier":"dart:core;dart:core/string.dart;String","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"1006","inV":"1005","label":"moniker","outV":"1001","type":"edge"}
+{"id":"1007","inV":"315","label":"packageInformation","outV":"1005","type":"edge"}
+{"id":"1008","inV":"988","label":"textDocument/hover","outV":"1001","type":"edge"}
+{"-----Comment":"Done imported reference to [String]","id":"1009","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported declaration","id":"1010","label":"","type":"vertex"}
+{"id":"1011","label":"hoverResult","result":{"contents":[{"language":"dart","value":"package:server"},{"language":"dart","value":"String a"}]},"type":"vertex"}
+{"-----Comment":"Done emitting imported declaration","id":"1012","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [a]","id":"1013","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"a","end":{"line":49,"character":26},"id":"1014","label":"range","start":{"line":49,"character":25},"type":"vertex"}
+{"id":"1015","label":"referenceResult","type":"vertex"}
+{"id":"1016","inV":"1015","label":"textDocument/references","outV":"1014","type":"edge"}
+{"document":"65","id":"1017","inVs":["1014"],"label":"item","outV":"1015","property":"references","type":"edge"}
+{"id":"1018","identifier":"package:server/server.dart;package:server/server.dart;_sumHandler;a","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"1019","inV":"1018","label":"moniker","outV":"1014","type":"edge"}
+{"id":"1020","inV":"313","label":"packageInformation","outV":"1018","type":"edge"}
+{"id":"1021","inV":"1011","label":"textDocument/hover","outV":"1014","type":"edge"}
+{"-----Comment":"Done imported reference to [a]","id":"1022","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported declaration","id":"1023","label":"","type":"vertex"}
+{"id":"1024","label":"hoverResult","result":{"contents":[{"language":"dart","value":"package:server"},{"language":"dart","value":"String b"}]},"type":"vertex"}
+{"-----Comment":"Done emitting imported declaration","id":"1025","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [b]","id":"1026","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"b","end":{"line":50,"character":26},"id":"1027","label":"range","start":{"line":50,"character":25},"type":"vertex"}
+{"id":"1028","label":"referenceResult","type":"vertex"}
+{"id":"1029","inV":"1028","label":"textDocument/references","outV":"1027","type":"edge"}
+{"document":"65","id":"1030","inVs":["1027"],"label":"item","outV":"1028","property":"references","type":"edge"}
+{"id":"1031","identifier":"package:server/server.dart;package:server/server.dart;_sumHandler;b","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"1032","inV":"1031","label":"moniker","outV":"1027","type":"edge"}
+{"id":"1033","inV":"313","label":"packageInformation","outV":"1031","type":"edge"}
+{"id":"1034","inV":"1024","label":"textDocument/hover","outV":"1027","type":"edge"}
+{"-----Comment":"Done imported reference to [b]","id":"1035","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported declaration","id":"1036","label":"","type":"vertex"}
+{"id":"1037","label":"hoverResult","result":{"contents":[{"language":"dart","value":"dart:convert"},{"language":"dart","value":"class JsonEncoder extends Converter<Object, String>"},{"language":"dart","value":"/// This class converts JSON objects to strings.\n///\n/// Example:\n///\n/// ```dart\n/// const JsonEncoder encoder = JsonEncoder();\n/// const data = {'text': 'foo', 'value': '2'};\n///\n/// final String jsonString = encoder.convert(data);\n/// print(jsonString); // {\"text\":\"foo\",\"value\":\"2\"}\n/// ```\n///\n/// Example of pretty-printed output:\n///\n/// ```dart\n/// const JsonEncoder encoder = JsonEncoder.withIndent('  ');\n///\n/// const data = {'text': 'foo', 'value': '2'};\n/// final String jsonString = encoder.convert(data);\n/// print(jsonString);\n/// // {\n/// //   \"text\": \"foo\",\n/// //   \"value\": \"2\"\n/// // }\n/// ```"}]},"type":"vertex"}
+{"-----Comment":"Done emitting imported declaration","id":"1038","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [JsonEncoder]","id":"1039","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"JsonEncoder","end":{"line":52,"character":21},"id":"1040","label":"range","start":{"line":52,"character":10},"type":"vertex"}
+{"id":"1041","label":"referenceResult","type":"vertex"}
+{"id":"1042","inV":"1041","label":"textDocument/references","outV":"1040","type":"edge"}
+{"document":"65","id":"1043","inVs":["1040"],"label":"item","outV":"1041","property":"references","type":"edge"}
+{"id":"1044","identifier":"dart:convert;dart:convert/json.dart;JsonEncoder","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"1045","inV":"1044","label":"moniker","outV":"1040","type":"edge"}
+{"id":"1046","inV":"321","label":"packageInformation","outV":"1044","type":"edge"}
+{"id":"1047","inV":"1037","label":"textDocument/hover","outV":"1040","type":"edge"}
+{"-----Comment":"Done imported reference to [JsonEncoder]","id":"1048","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported declaration","id":"1049","label":"","type":"vertex"}
+{"id":"1050","label":"hoverResult","result":{"contents":[{"language":"dart","value":"dart:convert"},{"language":"dart","value":"JsonEncoder JsonEncoder.withIndent(String indent, [Object Function(dynamic) toEncodable])"},{"language":"dart","value":"/// Creates a JSON encoder that creates multi-line JSON.\n///\n/// The encoding of elements of lists and maps are indented and put on separate\n/// lines. The [indent] string is prepended to these elements, once for each\n/// level of indentation.\n///\n/// If [indent] is `null`, the output is encoded as a single line.\n///\n/// The JSON encoder handles numbers, strings, booleans, null, lists and\n/// maps with string keys directly.\n///\n/// Any other object is attempted converted by [toEncodable] to an\n/// object that is of one of the convertible types.\n///\n/// If [toEncodable] is omitted, it defaults to calling `.toJson()` on\n/// the object."}]},"type":"vertex"}
+{"-----Comment":"Done emitting imported declaration","id":"1051","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [withIndent]","id":"1052","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"withIndent","end":{"line":52,"character":32},"id":"1053","label":"range","start":{"line":52,"character":22},"type":"vertex"}
+{"id":"1054","label":"referenceResult","type":"vertex"}
+{"id":"1055","inV":"1054","label":"textDocument/references","outV":"1053","type":"edge"}
+{"document":"65","id":"1056","inVs":["1053"],"label":"item","outV":"1054","property":"references","type":"edge"}
+{"id":"1057","identifier":"dart:convert;dart:convert/json.dart;JsonEncoder;withIndent","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"1058","inV":"1057","label":"moniker","outV":"1053","type":"edge"}
+{"id":"1059","inV":"321","label":"packageInformation","outV":"1057","type":"edge"}
+{"id":"1060","inV":"1050","label":"textDocument/hover","outV":"1053","type":"edge"}
+{"-----Comment":"Done imported reference to [withIndent]","id":"1061","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported declaration","id":"1062","label":"","type":"vertex"}
+{"id":"1063","label":"hoverResult","result":{"contents":[{"language":"dart","value":"dart:convert"},{"language":"dart","value":"String convert(Object object)"},{"language":"dart","value":"/// Converts [object] to a JSON [String].\n///\n/// Directly serializable values are [num], [String], [bool], and [Null], as\n/// well as some [List] and [Map] values. For [List], the elements must all be\n/// serializable. For [Map], the keys must be [String] and the values must be\n/// serializable.\n///\n/// If a value of any other type is attempted to be serialized, the\n/// `toEncodable` function provided in the constructor is called with the value\n/// as argument. The result, which must be a directly serializable value, is\n/// serialized instead of the original value.\n///\n/// If the conversion throws, or returns a value that is not directly\n/// serializable, a [JsonUnsupportedObjectError] exception is thrown.\n/// If the call throws, the error is caught and stored in the\n/// [JsonUnsupportedObjectError]'s `cause` field.\n///\n/// If a [List] or [Map] contains a reference to itself, directly or through\n/// other lists or maps, it cannot be serialized and a [JsonCyclicError] is\n/// thrown.\n///\n/// [object] should not change during serialization.\n///\n/// If an object is serialized more than once, [convert] may cache the text\n/// for it. In other words, if the content of an object changes after it is\n/// first serialized, the new values may not be reflected in the result."}]},"type":"vertex"}
+{"-----Comment":"Done emitting imported declaration","id":"1064","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [convert]","id":"1065","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"convert","end":{"line":53,"character":16},"id":"1066","label":"range","start":{"line":53,"character":9},"type":"vertex"}
+{"id":"1067","label":"referenceResult","type":"vertex"}
+{"id":"1068","inV":"1067","label":"textDocument/references","outV":"1066","type":"edge"}
+{"document":"65","id":"1069","inVs":["1066"],"label":"item","outV":"1067","property":"references","type":"edge"}
+{"id":"1070","identifier":"dart:convert;dart:convert/json.dart;JsonEncoder;convert","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"1071","inV":"1070","label":"moniker","outV":"1066","type":"edge"}
+{"id":"1072","inV":"321","label":"packageInformation","outV":"1070","type":"edge"}
+{"id":"1073","inV":"1063","label":"textDocument/hover","outV":"1066","type":"edge"}
+{"-----Comment":"Done imported reference to [convert]","id":"1074","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported declaration","id":"1075","label":"","type":"vertex"}
+{"id":"1076","label":"hoverResult","result":{"contents":[{"language":"dart","value":"package:server"},{"language":"dart","value":"int aNum"}]},"type":"vertex"}
+{"-----Comment":"Done emitting imported declaration","id":"1077","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [aNum]","id":"1078","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"aNum","end":{"line":53,"character":27},"id":"1079","label":"range","start":{"line":53,"character":23},"type":"vertex"}
+{"id":"1080","label":"referenceResult","type":"vertex"}
+{"id":"1081","inV":"1080","label":"textDocument/references","outV":"1079","type":"edge"}
+{"document":"65","id":"1082","inVs":["1079"],"label":"item","outV":"1080","property":"references","type":"edge"}
+{"id":"1083","identifier":"package:server/server.dart;package:server/server.dart;_sumHandler;aNum1829","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"1084","inV":"1083","label":"moniker","outV":"1079","type":"edge"}
+{"id":"1085","inV":"313","label":"packageInformation","outV":"1083","type":"edge"}
+{"id":"1086","inV":"1076","label":"textDocument/hover","outV":"1079","type":"edge"}
+{"-----Comment":"Done imported reference to [aNum]","id":"1087","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [aNum]","id":"1088","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"aNum","end":{"line":53,"character":51},"id":"1089","label":"range","start":{"line":53,"character":47},"type":"vertex"}
+{"id":"1090","label":"referenceResult","type":"vertex"}
+{"id":"1091","inV":"1090","label":"textDocument/references","outV":"1089","type":"edge"}
+{"document":"65","id":"1092","inVs":["1089"],"label":"item","outV":"1090","property":"references","type":"edge"}
+{"id":"1093","identifier":"package:server/server.dart;package:server/server.dart;_sumHandler;aNum1829","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"1094","inV":"1093","label":"moniker","outV":"1089","type":"edge"}
+{"id":"1095","inV":"313","label":"packageInformation","outV":"1093","type":"edge"}
+{"id":"1096","inV":"1076","label":"textDocument/hover","outV":"1089","type":"edge"}
+{"-----Comment":"Done imported reference to [aNum]","id":"1097","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported declaration","id":"1098","label":"","type":"vertex"}
+{"id":"1099","label":"hoverResult","result":{"contents":[{"language":"dart","value":"package:server"},{"language":"dart","value":"int bNum"}]},"type":"vertex"}
+{"-----Comment":"Done emitting imported declaration","id":"1100","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [bNum]","id":"1101","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"bNum","end":{"line":53,"character":38},"id":"1102","label":"range","start":{"line":53,"character":34},"type":"vertex"}
+{"id":"1103","label":"referenceResult","type":"vertex"}
+{"id":"1104","inV":"1103","label":"textDocument/references","outV":"1102","type":"edge"}
+{"document":"65","id":"1105","inVs":["1102"],"label":"item","outV":"1103","property":"references","type":"edge"}
+{"id":"1106","identifier":"package:server/server.dart;package:server/server.dart;_sumHandler;bNum1858","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"1107","inV":"1106","label":"moniker","outV":"1102","type":"edge"}
+{"id":"1108","inV":"313","label":"packageInformation","outV":"1106","type":"edge"}
+{"id":"1109","inV":"1099","label":"textDocument/hover","outV":"1102","type":"edge"}
+{"-----Comment":"Done imported reference to [bNum]","id":"1110","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [bNum]","id":"1111","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"bNum","end":{"line":53,"character":58},"id":"1112","label":"range","start":{"line":53,"character":54},"type":"vertex"}
+{"id":"1113","label":"referenceResult","type":"vertex"}
+{"id":"1114","inV":"1113","label":"textDocument/references","outV":"1112","type":"edge"}
+{"document":"65","id":"1115","inVs":["1112"],"label":"item","outV":"1113","property":"references","type":"edge"}
+{"id":"1116","identifier":"package:server/server.dart;package:server/server.dart;_sumHandler;bNum1858","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"1117","inV":"1116","label":"moniker","outV":"1112","type":"edge"}
+{"id":"1118","inV":"313","label":"packageInformation","outV":"1116","type":"edge"}
+{"id":"1119","inV":"1099","label":"textDocument/hover","outV":"1112","type":"edge"}
+{"-----Comment":"Done imported reference to [bNum]","id":"1120","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported declaration","id":"1121","label":"","type":"vertex"}
+{"id":"1122","label":"hoverResult","result":{"contents":[{"language":"dart","value":"package:shelf"},{"language":"dart","value":"{Map<String, Object> headers}"}]},"type":"vertex"}
+{"-----Comment":"Done emitting imported declaration","id":"1123","label":"","type":"vertex"}
+{"-----Comment":"Emitting imported reference to [headers]","id":"1124","label":"","type":"vertex"}
+{"_debugContainingFile":"package:server/server.dart","_debugName":"headers","end":{"line":54,"character":11},"id":"1125","label":"range","start":{"line":54,"character":4},"type":"vertex"}
+{"id":"1126","label":"referenceResult","type":"vertex"}
+{"id":"1127","inV":"1126","label":"textDocument/references","outV":"1125","type":"edge"}
+{"document":"65","id":"1128","inVs":["1125"],"label":"item","outV":"1126","property":"references","type":"edge"}
+{"id":"1129","identifier":"package:shelf/src/response.dart;package:shelf/src/response.dart;Response;ok;headers","kind":"import","label":"moniker","scheme":"dart","type":"vertex"}
+{"id":"1130","inV":"1129","label":"moniker","outV":"1125","type":"edge"}
+{"id":"1131","inV":"317","label":"packageInformation","outV":"1129","type":"edge"}
+{"id":"1132","inV":"1122","label":"textDocument/hover","outV":"1125","type":"edge"}
+{"-----Comment":"Done imported reference to [headers]","id":"1133","label":"","type":"vertex"}
+{"id":"1134","inVs":["11","14","17","20","27","32","51","54","57","60","327","350","373","396","409","442","475","488","501","514","537","524","550","337","563","576","589","602","615","628","641","654","667","680","703","716","690","729","383","742","755","360","768","781","814","791","827","880","913","926","939","952","801","965","837","978","847","890","857","991","1001","419","452","1014","429","462","1027","867","900","1040","1053","1066","1079","1102","1089","1112","1125","219","88","68","108","232","240","135","248","150","261","274","287","300","165","192"],"label":"contains","outV":"65","type":"edge"}
+{"data":"65","id":"1135","kind":"end","label":"$event","scope":"document","type":"vertex"}
+{"id":"1136","inVs":["65"],"label":"contains","outV":"62","type":"edge"}
+{"data":"62","id":"1137","kind":"end","label":"$event","scope":"project","type":"vertex"}
