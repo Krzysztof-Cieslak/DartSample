@@ -1,4 +1,4 @@
-name: container_server_example
+name: server
 publish_to: none # not intended for publication to pub.dev
 
 environment:
