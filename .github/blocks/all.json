@@ -1,5 +1,8 @@
 {
   "bin/server.dart": {
     "default": "Krzysztof-Cieslak__IDE-Block__ide-block"
+  },
+  "lib/server.dart": {
+    "default": "Krzysztof-Cieslak__IDE-Block__ide-block"
   }
 }
